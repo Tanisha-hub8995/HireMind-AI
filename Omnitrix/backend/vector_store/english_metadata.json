@@ -1,0 +1,20 @@
+[
+  {
+    "section": "english",
+    "source_file": "sample.txt",
+    "chunk_index": 0,
+    "text": "Topic: Grammar\n\nA noun is a word that represents a person, place, thing, or idea.\n\nA verb expresses an action, occurrence, or state of being.\n\nAn adjective describes or modifies a noun or pronoun.\n\nAn adverb commonly modifies a verb, adjective, or another adverb.\n\nA singular subject generally takes a singular verb.\n\nA plural subject generally takes a plural verb.\n\nExample:\nThe student works hard.\nThe students work hard."
+  },
+  {
+    "section": "english",
+    "source_file": "sample.txt",
+    "chunk_index": 1,
+    "text": "Topic: Tenses\n\nPresent simple tense is commonly used for habits, routines, and general facts.\n\nExample:\nShe studies every day.\n\nPast simple tense describes an action completed in the past.\n\nExample:\nShe studied yesterday."
+  },
+  {
+    "section": "english",
+    "source_file": "sample.txt",
+    "chunk_index": 2,
+    "text": "Topic: Synonyms and Antonyms\n\nA synonym is a word with a similar meaning to another word.\n\nAn antonym is a word with an opposite meaning."
+  }
+]

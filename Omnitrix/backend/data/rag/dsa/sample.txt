@@ -1,0 +1,47 @@
+Data Structures and Algorithms
+
+Arrays
+
+An array stores elements in contiguous memory locations in many common implementations.
+
+Accessing an element by index is generally O(1).
+
+Searching an unsorted array generally takes O(n) time.
+
+Binary Search
+
+A stack follows the Last In, First Out principle.
+
+Binary search works on sorted data.
+
+It repeatedly divides the search space into approximately two halves.
+
+
+
+Linked Lists
+
+A linked list consists of nodes where each node contains data and a reference to another node.
+
+Accessing an element by position generally takes O(n) time.
+
+Insertion at the beginning can be O(1) when the head pointer is directly available.
+
+Stacks
+
+Common stack operations include push and pop.
+
+Queues
+
+A queue follows the First In, First Out principle.
+
+Common queue operations include enqueue and dequeue.
+
+The time complexity of binary search is O(log n).
+
+Sorting
+
+Bubble sort has O(n²) average and worst-case time complexity.
+
+Merge sort has O(n log n) time complexity.
+
+Quick sort has O(n log n) average-case time complexity, although its worst case can be O(n²).

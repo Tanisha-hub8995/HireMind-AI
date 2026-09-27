@@ -1,0 +1,44 @@
+[
+  {
+    "section": "dsa",
+    "source_file": "sample.txt",
+    "chunk_index": 0,
+    "text": "Topic: General\n\nData Structures and Algorithms"
+  },
+  {
+    "section": "dsa",
+    "source_file": "sample.txt",
+    "chunk_index": 1,
+    "text": "Topic: Arrays\n\nAn array stores elements in contiguous memory locations in many common implementations.\n\nAccessing an element by index is generally O(1).\n\nSearching an unsorted array generally takes O(n) time."
+  },
+  {
+    "section": "dsa",
+    "source_file": "sample.txt",
+    "chunk_index": 2,
+    "text": "Topic: Binary Search\n\nBinary search works on sorted data.\n\nIt repeatedly divides the search space into approximately two halves.\n\nThe time complexity of binary search is O(log n)."
+  },
+  {
+    "section": "dsa",
+    "source_file": "sample.txt",
+    "chunk_index": 3,
+    "text": "Topic: Stacks\n\nA stack follows the Last In, First Out principle.\n\nCommon stack operations include push and pop."
+  },
+  {
+    "section": "dsa",
+    "source_file": "sample.txt",
+    "chunk_index": 4,
+    "text": "Topic: Linked Lists\n\nA linked list consists of nodes where each node contains data and a reference to another node.\n\nAccessing an element by position generally takes O(n) time.\n\nInsertion at the beginning can be O(1) when the head pointer is directly available."
+  },
+  {
+    "section": "dsa",
+    "source_file": "sample.txt",
+    "chunk_index": 5,
+    "text": "Topic: Queues\n\nA queue follows the First In, First Out principle.\n\nCommon queue operations include enqueue and dequeue."
+  },
+  {
+    "section": "dsa",
+    "source_file": "sample.txt",
+    "chunk_index": 6,
+    "text": "Topic: Sorting\n\nBubble sort has O(n²) average and worst-case time complexity.\n\nMerge sort has O(n log n) time complexity.\n\nQuick sort has O(n log n) average-case time complexity, although its worst case can be O(n²)."
+  }
+]

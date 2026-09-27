@@ -1,0 +1,20 @@
+[33mcommit 06c37b30becdd144540a46183c3ea14f624c63c1[m
+Author: Tanisha-hub8995 <tanishdas108@gmail.com>
+Date:   Fri Sep 4 04:11:41 2026 +0530
+
+    resume upload and analyze
+
+A	backend/alembic/versions/20260904_add_resume_tables_and_vector.py
+M	backend/app/api/resume.py
+M	backend/app/main.py
+M	backend/app/models/__init__.py
+M	backend/app/models/resume.py
+A	backend/app/models/resume_vector.py
+M	backend/app/services/career_recommendations.py
+M	backend/app/services/job_matcher.py
+M	backend/app/services/resume_analyzer.py
+M	backend/app/services/resume_parser.py
+M	backend/app/services/skill_extractor.py
+A	backend/app/services/vector_store.py
+M	backend/requirements.txt
+A	backend/uploads/demo_resume.pdf

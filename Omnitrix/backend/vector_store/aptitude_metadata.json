@@ -1,0 +1,26 @@
+[
+  {
+    "section": "aptitude",
+    "source_file": "sample.txt",
+    "chunk_index": 0,
+    "text": "Topic: Percentages\n\nA percentage is a number expressed as a fraction of 100.\n\nTo calculate x percent of y:\n(x / 100) × y\n\nPercentage increase:\n((New Value - Original Value) / Original Value) × 100\n\nPercentage decrease:\n((Original Value - New Value) / Original Value) × 100"
+  },
+  {
+    "section": "aptitude",
+    "source_file": "sample.txt",
+    "chunk_index": 1,
+    "text": "Topic: Profit and Loss\n\nProfit = Selling Price - Cost Price\n\nLoss = Cost Price - Selling Price\n\nProfit percentage = (Profit / Cost Price) × 100\n\nLoss percentage = (Loss / Cost Price) × 100"
+  },
+  {
+    "section": "aptitude",
+    "source_file": "sample.txt",
+    "chunk_index": 2,
+    "text": "Topic: Ratio and Proportion\n\nA ratio compares two quantities.\n\nIf a:b = c:d, then a × d = b × c."
+  },
+  {
+    "section": "aptitude",
+    "source_file": "sample.txt",
+    "chunk_index": 3,
+    "text": "Topic: Time and Work\n\nIf a person completes a work in x days, their one-day work is 1/x.\n\nIf two people can complete a work in x and y days respectively, their combined one-day work is:\n\n1/x + 1/y"
+  }
+]

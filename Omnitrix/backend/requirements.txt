@@ -1,0 +1,120 @@
+# ============================================================
+# AI Career & Interview Platform
+# Python: 3.11.9
+#
+# LLM:        Qwen/Qwen2.5-3B-Instruct  (local, via transformers)
+# Embeddings: sentence-transformers/all-MiniLM-L6-v2  (local)
+# Vector DB:  FAISS (faiss-cpu)
+#
+# NOTE: No OpenAI / GPT dependency.  All AI runs locally.
+# ============================================================
+
+# -----------------------------
+# Backend / REST API
+# -----------------------------
+fastapi>=0.139,<0.140
+uvicorn[standard]>=0.35,<0.36
+
+pydantic>=2.11,<3
+pydantic-settings>=2.10,<3
+python-multipart>=0.0.20,<0.1
+reportlab>=4.2,<5
+email-validator>=2.3,<3
+
+# -----------------------------
+# Authentication & Security
+# -----------------------------
+pwdlib[argon2]>=0.3,<1
+python-jose[cryptography]>=3.5,<4
+passlib[bcrypt]>=1.7.4,<2
+bcrypt>=4.0,<5
+python-dotenv>=1.1,<2
+
+# -----------------------------
+# Database / ORM / Migrations
+# PostgreSQL recommended for production
+# -----------------------------
+SQLAlchemy>=2.0,<2.1
+alembic>=1.16,<2
+psycopg2-binary>=2.9,<3
+
+# -----------------------------
+# Vector Search (FAISS)
+# Stores SentenceTransformer embeddings; no PostgreSQL pgvector needed
+# -----------------------------
+faiss-cpu>=1.8,<2
+
+# -----------------------------
+# Local LLM — Qwen2.5-3B-Instruct
+# transformers + torch handle model inference; accelerate is recommended
+# for faster loading on both CPU and GPU.
+# -----------------------------
+transformers>=4.40,<5
+# torch CPU-only (install separately): pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
+accelerate>=0.27,<2
+tenacity>=9.1,<10
+google-genai==2.22.0
+# -----------------------------
+# NLP / Semantic Matching / Embeddings
+# sentence-transformers provides the embedding model used by FAISS.
+# Used for resume skills, job matching, career similarity and skill-gap analysis.
+# -----------------------------
+sentence-transformers>=2.7,<4
+scikit-learn>=1.7,<1.8
+scipy>=1.16,<2
+nltk>=3.9,<4
+spacy>=3.8,<4
+
+# -----------------------------
+# Resume / Document Processing
+# PDF, DOCX and spreadsheet resumes
+# -----------------------------
+pypdf>=6.0,<7
+python-docx>=1.2,<2
+openpyxl>=3.1,<4
+beautifulsoup4>=4.13,<5
+
+# -----------------------------
+# Data Processing / Analytics
+# -----------------------------
+numpy>=2.3,<3
+pandas>=2.3,<3
+
+# -----------------------------
+# AI Mock Interview - Speech
+# Speech-to-text and audio analysis
+# -----------------------------
+faster-whisper>=1.2,<2
+librosa>=0.11,<1
+soundfile>=0.13,<1
+
+# -----------------------------
+# HTTP / External Job & Company APIs
+# -----------------------------
+httpx>=0.28,<1
+requests>=2.32,<3
+
+# -----------------------------
+# Background Jobs / Caching
+# Useful for resume processing,
+# interview evaluation and scheduled tasks
+# -----------------------------
+celery>=5.5,<6
+redis>=6.4,<7
+ollama== 0.6.2
+# -----------------------------
+# Dashboard / Data Visualization
+# -----------------------------
+streamlit>=1.48,<2
+plotly>=6.2,<7
+
+# -----------------------------
+# Testing
+# -----------------------------
+pytest>=8.4,<9
+pytest-asyncio>=1.1,<2
+
+# -----------------------------
+# Optional production utilities
+# -----------------------------
+orjson>=3.11,<4

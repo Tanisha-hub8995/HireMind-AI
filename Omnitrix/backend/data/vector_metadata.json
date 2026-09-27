@@ -1,0 +1,2302 @@
+{
+  "1": {
+    "db_vector_id": 21,
+    "resume_id": 14,
+    "section_type": "summary",
+    "skill_id": null,
+    "source_text": "Demo Resume Alex Morgan alex.morgan@example.com | +1 555 010 2026",
+    "type": "resume_section",
+    "user_id": 29,
+    "vector_id": 1
+  },
+  "10": {
+    "db_vector_id": 30,
+    "resume_id": 14,
+    "section_type": "skill:PostgreSQL",
+    "skill_id": 5,
+    "source_text": "PostgreSQL",
+    "type": "skill",
+    "user_id": 29,
+    "vector_id": 10
+  },
+  "100": {
+    "db_vector_id": 189,
+    "resume_id": 31,
+    "section_type": "skill:Pandas",
+    "skill_id": 13,
+    "source_text": "Pandas",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 100
+  },
+  "101": {
+    "db_vector_id": 190,
+    "resume_id": 31,
+    "section_type": "skill:Scikit-learn",
+    "skill_id": 14,
+    "source_text": "Scikit-learn",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 101
+  },
+  "102": {
+    "db_vector_id": 191,
+    "resume_id": 31,
+    "section_type": "skill:React",
+    "skill_id": 8,
+    "source_text": "React",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 102
+  },
+  "103": {
+    "db_vector_id": 192,
+    "resume_id": 31,
+    "section_type": "skill:SQL",
+    "skill_id": 2,
+    "source_text": "SQL",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 103
+  },
+  "104": {
+    "db_vector_id": 193,
+    "resume_id": 31,
+    "section_type": "skill:Communication",
+    "skill_id": 16,
+    "source_text": "Communication",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 104
+  },
+  "105": {
+    "db_vector_id": 194,
+    "resume_id": 31,
+    "section_type": "skill:FastAPI",
+    "skill_id": 4,
+    "source_text": "FastAPI",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 105
+  },
+  "106": {
+    "db_vector_id": 195,
+    "resume_id": 31,
+    "section_type": "skill:Excel",
+    "skill_id": 17,
+    "source_text": "Excel",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 106
+  },
+  "107": {
+    "db_vector_id": 196,
+    "resume_id": 31,
+    "section_type": "skill:Node.js",
+    "skill_id": 15,
+    "source_text": "Node.js",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 107
+  },
+  "108": {
+    "db_vector_id": 197,
+    "resume_id": 31,
+    "section_type": "skill:Flask",
+    "skill_id": 18,
+    "source_text": "Flask",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 108
+  },
+  "109": {
+    "db_vector_id": 198,
+    "resume_id": 31,
+    "section_type": "skill:Mysql",
+    "skill_id": 23,
+    "source_text": "Mysql",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 109
+  },
+  "11": {
+    "db_vector_id": 31,
+    "resume_id": 14,
+    "section_type": "skill:Docker",
+    "skill_id": 6,
+    "source_text": "Docker",
+    "type": "skill",
+    "user_id": 29,
+    "vector_id": 11
+  },
+  "110": {
+    "db_vector_id": 199,
+    "resume_id": 31,
+    "section_type": "skill:Node.Js",
+    "skill_id": 24,
+    "source_text": "Node.Js",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 110
+  },
+  "111": {
+    "db_vector_id": 200,
+    "resume_id": 31,
+    "section_type": "skill:Express",
+    "skill_id": 25,
+    "source_text": "Express",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 111
+  },
+  "112": {
+    "db_vector_id": 201,
+    "resume_id": 31,
+    "section_type": "skill:GIT",
+    "skill_id": 26,
+    "source_text": "GIT",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 112
+  },
+  "113": {
+    "db_vector_id": 202,
+    "resume_id": 31,
+    "section_type": "skill:Github",
+    "skill_id": 27,
+    "source_text": "Github",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 113
+  },
+  "114": {
+    "db_vector_id": 203,
+    "resume_id": 31,
+    "section_type": "skill:Linux",
+    "skill_id": 28,
+    "source_text": "Linux",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 114
+  },
+  "115": {
+    "db_vector_id": 204,
+    "resume_id": 31,
+    "section_type": "skill:Html",
+    "skill_id": 29,
+    "source_text": "Html",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 115
+  },
+  "116": {
+    "db_vector_id": 205,
+    "resume_id": 31,
+    "section_type": "skill:CSS",
+    "skill_id": 30,
+    "source_text": "CSS",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 116
+  },
+  "117": {
+    "db_vector_id": 206,
+    "resume_id": 31,
+    "section_type": "skill:Tailwind",
+    "skill_id": 31,
+    "source_text": "Tailwind",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 117
+  },
+  "118": {
+    "db_vector_id": 207,
+    "resume_id": 31,
+    "section_type": "skill:Machine Learning",
+    "skill_id": 32,
+    "source_text": "Machine Learning",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 118
+  },
+  "119": {
+    "db_vector_id": 208,
+    "resume_id": 31,
+    "section_type": "skill:Data Analysis",
+    "skill_id": 33,
+    "source_text": "Data Analysis",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 119
+  },
+  "12": {
+    "db_vector_id": 32,
+    "resume_id": 14,
+    "section_type": "skill:AWS",
+    "skill_id": 7,
+    "source_text": "AWS",
+    "type": "skill",
+    "user_id": 29,
+    "vector_id": 12
+  },
+  "120": {
+    "db_vector_id": 209,
+    "resume_id": 31,
+    "section_type": "skill:Scikit-Learn",
+    "skill_id": 34,
+    "source_text": "Scikit-Learn",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 120
+  },
+  "121": {
+    "db_vector_id": 210,
+    "resume_id": 31,
+    "section_type": "skill:Data Structures",
+    "skill_id": 35,
+    "source_text": "Data Structures",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 121
+  },
+  "122": {
+    "db_vector_id": 211,
+    "resume_id": 31,
+    "section_type": "skill:Algorithms",
+    "skill_id": 36,
+    "source_text": "Algorithms",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 122
+  },
+  "123": {
+    "db_vector_id": 212,
+    "resume_id": 32,
+    "section_type": "summary",
+    "skill_id": null,
+    "source_text": "TANISHA DAS B.Tech CSE  | Developer | AI-ML & data Science| System & IoT Beleghata, Kolkata, West Bengal, India   \u2022   +91 74392 58995   \u2022   tanishdas108@gmail.com   \u2022   GitHub  \u2022   LinkedIn",
+    "type": "resume_section",
+    "user_id": 68,
+    "vector_id": 123
+  },
+  "124": {
+    "db_vector_id": 213,
+    "resume_id": 32,
+    "section_type": "skills",
+    "skill_id": null,
+    "source_text": "TECHNICAL SKILLS Languages:  Python, C/C++, Java, Bash, HTML/CSS/JS Frameworks & Libraries:  NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib, Plotly, React, Tailwind CSS Backend & Databases:  FastAPI, SQLAlchemy, Uvicorn,  JWT Authentication, Data Validation, MySQL Tools & Platforms:  Git/GitHub, VS Code, Vite, Jupyter Notebook, Figma, Vercel, Excel, GNOME Embedded & IoT:  ESP32-S3, L298N Motor Driver, IR Sensors, PWM Control, PlatformIO, Arduino IDE Soft Skills:  Project Management, UI/UX Design, Communication, Teamwork, Web Development Applied core data science concepts through hands-on projects, building practical, future-ready analytical skills. Java Programming Intern \u2014 CodSoft Dec 2025",
+    "type": "resume_section",
+    "user_id": 68,
+    "vector_id": 124
+  },
+  "125": {
+    "db_vector_id": 214,
+    "resume_id": 32,
+    "section_type": "experience",
+    "skill_id": null,
+    "source_text": "WORK EXPERIENCE Gained hands-on experience developing Java-based solutions while strengthening core programming and object-oriented concepts. Professional Development Workshop \u2014 e133 & Tata Consultancy Services (TCS) 2024 Collaborated on corporate communication and teamwork exercises; strengthened critical thinking and problem-solving through structured, hands-on activities. Built a regression-based ML model to predict employee salaries from experience, location, and job rate; handled missing values and categorical encoding to achieve 83% accuracy. Peer-to-Peer File Sharing  (Java) Dec 2025 Developed a Java Swing-based file-sharing application using socket programming, event handling, multithreading, and file I/O within a client-server architecture for efficient, user-friendly peer-to-peer transfers. Unemployment Analysis During COVID-19  (Python, EDA) Jan 2026 Conducted exploratory analysis of unemployment trends before, during, and after COVID-19 using NumPy, Pandas, Matplotlib, and Seaborn; visualized regional disparities and pandemic-driven spikes through charts and heatmaps. Dyslexia Assist \u2013 Access ED  (Smart India Hackathon) Sep 2025 Built a full-stack adaptive learning platform (React, Tailwind CSS, Node.js, Express.js, Python, Flask, Database, Vercel) with gamified exercises and assistive tools, plus community features that help individuals with dyslexia build confidence and connection. Fraud Detection App  (Python, ML) Mar 2026 Developed a real-time fraud detection system using a decision-tree classifier, achieving 94% accuracy through feature engineering and EDA; handled imbalanced and missing data, evaluating performance via accuracy, precision, recall, and F1-score. IoT Saree Folding & Pressing Machine  (ESP32-S3, C++, L298N Motor Driver, IR Sensors, PlatformIO, PWM) Designed and prototyped a compact, automated saree-folding machine for small textile retailers using PWM-synchronized motor control and real-time IR sensor feedback; resolved position-drift issues through precision stopping and timing calibration, optimizing for low-cost, minimal-intervention deployment.",
+    "type": "resume_section",
+    "user_id": 68,
+    "vector_id": 125
+  },
+  "126": {
+    "db_vector_id": 215,
+    "resume_id": 32,
+    "section_type": "education",
+    "skill_id": null,
+    "source_text": "EDUCATION Techno India University, Kolkata, 2023-2027 CGPA: 8.38 / 10 B.Tech in Computer Science and Engineering Labanhrad Vidyapith, Kolkata, 2023 80.2% Higher Secondary Education (Science) \u2014 Bengali, English, Mathematics, Physics, Chemistry, Biology Begum Rokeya Smriti Balika Vidyalaya, Kolkata, 2021 75% Secondary Education, WBBSE \u2014 Bengali, English, Mathematics, Life Science, Physical Science, History, Geography",
+    "type": "resume_section",
+    "user_id": 68,
+    "vector_id": 126
+  },
+  "127": {
+    "db_vector_id": 216,
+    "resume_id": 32,
+    "section_type": "projects",
+    "skill_id": null,
+    "source_text": "AI/ML Project-Based Intern \u2014 IBM (PBEL) Jan 2026 Completed IBM's Project-Based Experiential Learning virtual internship, applying AI/ML concepts to hands-on, industry-relevant projects. Data Science Intern \u2014 CodeAlpha Feb 2026 Self-Initiated Projects \u2014 DSA & Linux Programming Aug 2024 Implemented core data structures (arrays, linked lists, stacks, queues, trees) and algorithms (sorting, searching, graph traversal) in C++; developed and optimized scripts in Linux to improve system-level efficiency. PROJECTS Employee Salary Prediction  (Python, Scikit-learn) Sep 2025",
+    "type": "resume_section",
+    "user_id": 68,
+    "vector_id": 127
+  },
+  "128": {
+    "db_vector_id": 217,
+    "resume_id": 32,
+    "section_type": "certifications",
+    "skill_id": null,
+    "source_text": "CERTIFICATIONS Machine Learning \u2014 IBM Jan 2026 ETL processes and big data fundamentals; data gathering, identification, and cleaning for analysis. Java Programming \u2014 CodeSoft Jan 2026 Core programming syntax and OOP concepts; procedural programming paradigms and logic-building. Data Science \u2014 Billion-AI Mar 2024 Comprehensive data lifecycle and stages of analysis; applications for optimizing data efficiency and accuracy. Professional Development Workshop \u2014 Certificate of Participation, e133 & TCS Sep 2024 ADDITIONAL INFORMATION Languages:  Bengali (Native), English (Professional), Hindi (Conversational) Core Subjects:  Data Structures & Algorithms, OOP, DBMS, Microprocessors & Microcontrollers, Operating Systems, Computer Networks, Discrete Mathematics, Probability Interests:  IoT Automation, Linux Internals, Full-Stack Development, AI/ML, Data Science, Data Analysis, DevOps",
+    "type": "resume_section",
+    "user_id": 68,
+    "vector_id": 128
+  },
+  "129": {
+    "db_vector_id": 218,
+    "resume_id": 32,
+    "section_type": "full_resume",
+    "skill_id": null,
+    "source_text": "TANISHA DAS B.Tech CSE | Developer | AI-ML & data Science| System & IoT Beleghata, Kolkata, West Bengal, India \u2022 +91 74392 58995 \u2022 tanishdas108@gmail.com \u2022 GitHub \u2022 LinkedIn EDUCATION Techno India University, Kolkata, 2023-2027 CGPA: 8.38 / 10 B.Tech in Computer Science and Engineering Labanhrad Vidyapith, Kolkata, 2023 80.2% Higher Secondary Education (Science) \u2014 Bengali, English, Mathematics, Physics, Chemistry, Biology Begum Rokeya Smriti Balika Vidyalaya, Kolkata, 2021 75% Secondary Education, WBBSE \u2014 Bengali, English, Mathematics, Life Science, Physical Science, History, Geography TECHNICAL SKILLS Languages: Python, C/C++, Java, Bash, HTML/CSS/JS Frameworks & Libraries: NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib, Plotly, React, Tailwind CSS Backend & Databases: FastAPI, SQLAlchemy, Uvicorn, JWT Authentication, Data Validation, MySQL Tools & Platforms: Git/GitHub, VS Code, Vite, Jupyter Notebook, Figma, Vercel, Excel, GNOME Embedded & IoT: ESP32-S3, L298N Motor Driver, IR Sensors, PWM Control, PlatformIO, Arduino IDE Soft Skills: Project Management, UI/UX Design, Communication, Teamwork, Web Development WORK EXPERIENCE AI/ML Project-Based Intern \u2014 IBM (PBEL) Jan 2026 Completed IBM's Project-Based Experiential Learning virtual internship, applying AI/ML concepts to hands-on, industry-relevant projects. Data Science Intern \u2014 CodeAlpha Feb 2026 Applied core data science concepts through hands-on projects, building practical, future-ready analytical skills. Java Programming Intern \u2014 CodSoft Dec 2025 Gained hands-on experience developing Java-based solutions while strengthening core programming and object-oriented concepts. Professional Development Workshop \u2014 e133 & Tata Consultancy Services (TCS) 2024 Collaborated on corporate communication and teamwork exercises; strengthened critical thinking and problem-solving through structured, hands-on activities. Self-Initiated Projects \u2014 DSA & Linux Programming Aug 2024 Implemented core data structures (arrays, linked lists, stacks, queues, trees) and algorithms (sorting, searching, graph traversal) in C++; developed and optimized scripts in Linux to improve system-level efficiency. PROJECTS Employee Salary Prediction (Python, Scikit-learn) Sep 2025 Built a regression-based ML model to predict employee salaries from experience, location, and job rate; handled missing values and categorical encoding to achieve 83% accuracy. Peer-to-Peer File Sharing (Java) Dec 2025 Developed a Java Swing-based file-sharing application using socket programming, event handling, multithreading, and file I/O within a client-server architecture for efficient, user-friendly peer-to-peer transfers. Unemployment Analysis During COVID-19 (Python, EDA) Jan 2026 Conducted exploratory analysis of unemployment trends before, during, and after COVID-19 using NumPy, Pandas, Matplotlib, and Seaborn; visualized regional disparities and pandemic-driven spikes through charts and heatmaps. Dyslexia Assist \u2013 Access ED (Smart India Hackathon) Sep 2025 Built a full-stack adaptive learning platform (React, Tailwind CSS, Node.js, Express.js, Python, Flask, Database, Vercel) with gamified exercises and assistive tools, plus community features that help individuals with dyslexia build confidence and connection. Fraud Detection App (Python, ML) Mar 2026 Developed a real-time fraud detection system using a decision-tree classifier, achieving 94% accuracy through feature engineering and EDA; handled imbalanced and missing data, evaluating performance via accuracy, precision, recall, and F1-score. IoT Saree Folding & Pressing Machine (ESP32-S3, C++, L298N Motor Driver, IR Sensors, PlatformIO, PWM) Designed and prototyped a compact, automated saree-folding machine for small textile retailers using PWM-synchronized motor control and real-time IR sensor feedback; resolved position-drift issues through precision stopping and timing calibration, optimizing for low-cost, minimal-intervention deployment. CERTIFICATIONS Machine Learning \u2014 IBM Jan 2026 ETL processes and big data fundamentals; data gathering, identification, and cleaning for analysis. Java Programming \u2014 CodeSoft Jan 2026 Core programming syntax and OOP concepts; procedural programming paradigms and logic-building. Data Science \u2014 Billion-AI Mar 2024 Comprehensive data lifecycle and stages of analysis; applications for optimizing data efficiency and accuracy. Professional Development Workshop \u2014 Certificate of Participation, e133 & TCS Sep 2024 ADDITIONAL INFORMATION Languages: Bengali (Native), English (Professional), Hindi (Conversational) Core Subjects: Data Structures & Algorithms, OOP, DBMS, Microprocessors & Microcontrollers, Operating Systems, Computer Networks, Discrete Mathematics, Probability Interests: IoT Automation, Linux Internals, Full-Stack Development, AI/ML, Data Science, Data Analysis, DevOps",
+    "type": "resume_section",
+    "user_id": 68,
+    "vector_id": 129
+  },
+  "13": {
+    "db_vector_id": 33,
+    "resume_id": 14,
+    "section_type": "skill:React",
+    "skill_id": 8,
+    "source_text": "React",
+    "type": "skill",
+    "user_id": 29,
+    "vector_id": 13
+  },
+  "130": {
+    "db_vector_id": 219,
+    "resume_id": 32,
+    "section_type": "skill:AI",
+    "skill_id": 9,
+    "source_text": "AI",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 130
+  },
+  "131": {
+    "db_vector_id": 220,
+    "resume_id": 32,
+    "section_type": "skill:Java",
+    "skill_id": 10,
+    "source_text": "Java",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 131
+  },
+  "132": {
+    "db_vector_id": 221,
+    "resume_id": 32,
+    "section_type": "skill:Python",
+    "skill_id": 3,
+    "source_text": "Python",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 132
+  },
+  "133": {
+    "db_vector_id": 222,
+    "resume_id": 32,
+    "section_type": "skill:C++",
+    "skill_id": 11,
+    "source_text": "C++",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 133
+  },
+  "134": {
+    "db_vector_id": 223,
+    "resume_id": 32,
+    "section_type": "skill:API",
+    "skill_id": 1,
+    "source_text": "API",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 134
+  },
+  "135": {
+    "db_vector_id": 224,
+    "resume_id": 32,
+    "section_type": "skill:NumPy",
+    "skill_id": 12,
+    "source_text": "NumPy",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 135
+  },
+  "136": {
+    "db_vector_id": 225,
+    "resume_id": 32,
+    "section_type": "skill:Pandas",
+    "skill_id": 13,
+    "source_text": "Pandas",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 136
+  },
+  "137": {
+    "db_vector_id": 226,
+    "resume_id": 32,
+    "section_type": "skill:Scikit-learn",
+    "skill_id": 14,
+    "source_text": "Scikit-learn",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 137
+  },
+  "138": {
+    "db_vector_id": 227,
+    "resume_id": 32,
+    "section_type": "skill:React",
+    "skill_id": 8,
+    "source_text": "React",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 138
+  },
+  "139": {
+    "db_vector_id": 228,
+    "resume_id": 32,
+    "section_type": "skill:SQL",
+    "skill_id": 2,
+    "source_text": "SQL",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 139
+  },
+  "14": {
+    "db_vector_id": 34,
+    "resume_id": 14,
+    "section_type": "skill:AI",
+    "skill_id": 9,
+    "source_text": "AI",
+    "type": "skill",
+    "user_id": 29,
+    "vector_id": 14
+  },
+  "140": {
+    "db_vector_id": 229,
+    "resume_id": 32,
+    "section_type": "skill:Communication",
+    "skill_id": 16,
+    "source_text": "Communication",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 140
+  },
+  "141": {
+    "db_vector_id": 230,
+    "resume_id": 32,
+    "section_type": "skill:FastAPI",
+    "skill_id": 4,
+    "source_text": "FastAPI",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 141
+  },
+  "142": {
+    "db_vector_id": 231,
+    "resume_id": 32,
+    "section_type": "skill:Excel",
+    "skill_id": 17,
+    "source_text": "Excel",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 142
+  },
+  "143": {
+    "db_vector_id": 232,
+    "resume_id": 32,
+    "section_type": "skill:Node.js",
+    "skill_id": 15,
+    "source_text": "Node.js",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 143
+  },
+  "144": {
+    "db_vector_id": 233,
+    "resume_id": 32,
+    "section_type": "skill:Flask",
+    "skill_id": 18,
+    "source_text": "Flask",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 144
+  },
+  "145": {
+    "db_vector_id": 234,
+    "resume_id": 32,
+    "section_type": "skill:Mysql",
+    "skill_id": 23,
+    "source_text": "Mysql",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 145
+  },
+  "146": {
+    "db_vector_id": 235,
+    "resume_id": 32,
+    "section_type": "skill:Node.Js",
+    "skill_id": 24,
+    "source_text": "Node.Js",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 146
+  },
+  "147": {
+    "db_vector_id": 236,
+    "resume_id": 32,
+    "section_type": "skill:Express",
+    "skill_id": 25,
+    "source_text": "Express",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 147
+  },
+  "148": {
+    "db_vector_id": 237,
+    "resume_id": 32,
+    "section_type": "skill:GIT",
+    "skill_id": 26,
+    "source_text": "GIT",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 148
+  },
+  "149": {
+    "db_vector_id": 238,
+    "resume_id": 32,
+    "section_type": "skill:Github",
+    "skill_id": 27,
+    "source_text": "Github",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 149
+  },
+  "15": {
+    "db_vector_id": 35,
+    "resume_id": 15,
+    "section_type": "summary",
+    "skill_id": null,
+    "source_text": "Demo Resume Alex Morgan alex.morgan@example.com | +1 555 010 2026",
+    "type": "resume_section",
+    "user_id": 32,
+    "vector_id": 15
+  },
+  "150": {
+    "db_vector_id": 239,
+    "resume_id": 32,
+    "section_type": "skill:Linux",
+    "skill_id": 28,
+    "source_text": "Linux",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 150
+  },
+  "151": {
+    "db_vector_id": 240,
+    "resume_id": 32,
+    "section_type": "skill:Html",
+    "skill_id": 29,
+    "source_text": "Html",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 151
+  },
+  "152": {
+    "db_vector_id": 241,
+    "resume_id": 32,
+    "section_type": "skill:CSS",
+    "skill_id": 30,
+    "source_text": "CSS",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 152
+  },
+  "153": {
+    "db_vector_id": 242,
+    "resume_id": 32,
+    "section_type": "skill:Tailwind",
+    "skill_id": 31,
+    "source_text": "Tailwind",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 153
+  },
+  "154": {
+    "db_vector_id": 243,
+    "resume_id": 32,
+    "section_type": "skill:Machine Learning",
+    "skill_id": 32,
+    "source_text": "Machine Learning",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 154
+  },
+  "155": {
+    "db_vector_id": 244,
+    "resume_id": 32,
+    "section_type": "skill:Data Analysis",
+    "skill_id": 33,
+    "source_text": "Data Analysis",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 155
+  },
+  "156": {
+    "db_vector_id": 245,
+    "resume_id": 32,
+    "section_type": "skill:Scikit-Learn",
+    "skill_id": 34,
+    "source_text": "Scikit-Learn",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 156
+  },
+  "157": {
+    "db_vector_id": 246,
+    "resume_id": 32,
+    "section_type": "skill:Data Structures",
+    "skill_id": 35,
+    "source_text": "Data Structures",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 157
+  },
+  "158": {
+    "db_vector_id": 247,
+    "resume_id": 32,
+    "section_type": "skill:Algorithms",
+    "skill_id": 36,
+    "source_text": "Algorithms",
+    "type": "skill",
+    "user_id": 68,
+    "vector_id": 158
+  },
+  "159": {
+    "db_vector_id": 248,
+    "resume_id": 33,
+    "section_type": "summary",
+    "skill_id": null,
+    "source_text": "TANISHA DAS B.Tech CSE  |  Developer  |  AI-ML & Data Science  |  Systems & IoT BeleghataKolkata, West Bengal, India   \u2022   +91 74392 58995 tanishdas108@gmail.com   \u2022   GitHub   \u2022   LinkedIn",
+    "type": "resume_section",
+    "user_id": 70,
+    "vector_id": 159
+  },
+  "16": {
+    "db_vector_id": 36,
+    "resume_id": 15,
+    "section_type": "skills",
+    "skill_id": null,
+    "source_text": "Skills: Python, FastAPI, SQL, PostgreSQL, Docker, AWS, React, Machine Learning",
+    "type": "resume_section",
+    "user_id": 32,
+    "vector_id": 16
+  },
+  "160": {
+    "db_vector_id": 249,
+    "resume_id": 33,
+    "section_type": "skills",
+    "skill_id": null,
+    "source_text": "TECHNICAL SKILLS Languages:  Python, C/C++, Java, Bash, HTML/CSS/JS Frameworks & Libraries:  NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib, Plotly, React, Tailwind CSS Backend & Databases:  FastAPI, SQLAlchemy, Uvicorn, Express.js, Node.js, JWT Authentication, Data Validation, MySQL Tools & Platforms:  Git/GitHub, VS Code, Vite, Jupyter Notebook, Figma, Vercel, Excel, GNOME Embedded & IoT:  ESP32-S3, L298N Motor Driver, IR Sensors, PWM Control, PlatformIO, Arduino IDE Soft Skills:  Project Management, UI/UX Design, Communication, Teamwork, Web Development Applied core data science concepts through hands-on projects, building practical, future-ready analytical skills.",
+    "type": "resume_section",
+    "user_id": 70,
+    "vector_id": 160
+  },
+  "161": {
+    "db_vector_id": 250,
+    "resume_id": 33,
+    "section_type": "experience",
+    "skill_id": null,
+    "source_text": "WORK EXPERIENCE Data Science Intern \u2014 CodeAlpha Feb 2026 Gained hands-on experience developing Java-based solutions while strengthening core programming and object-oriented concepts. Professional Development Workshop \u2014 e133 & Tata Consultancy Services (TCS) 2024 Collaborated on corporate communication and teamwork exercises; strengthened critical thinking and problem-solving through structured, hands-on activities. Unemployment Analysis During COVID-19  (Python, EDA) Jan 2026 Conducted exploratory analysis of unemployment trends before, during, and after COVID-19 using NumPy, Pandas, Matplotlib, and Seaborn; visualized regional disparities and pandemic-driven spikes through charts and heatmaps. Peer-to-Peer File Sharing  (Java) Dec 2025 Developed a Java Swing-based file-sharing application using socket programming, event handling, multithreading, and file I/O within a client-server architecture for efficient, user-friendly peer-to-peer transfers. Employee Salary Prediction  (Python, Scikit-learn) Sep 2025 Built a regression-based ML model to predict employee salaries from experience, location, and job rate; handled missing values and categorical encoding to achieve 83% accuracy. Dyslexia Assist \u2013 Access ED  (Smart India Hackathon) Sep 2025 Built a full-stack adaptive learning platform (React, Tailwind CSS, Node.js, Express.js, Python, Flask, Database, Vercel) with gamified exercises and assistive tools, plus community features that help individuals with dyslexia build confidence and connection. IoT Saree Folding & Pressing Machine  (ESP32-S3, C++, L298N Motor Driver, IR Sensors, PlatformIO, PWM) Designed and prototyped a compact, automated saree-folding machine for small textile retailers using PWM-synchronized motor control and real-time IR sensor feedback; resolved position-drift issues through precision stopping and timing calibration, optimizing for low-cost, minimal-intervention deployment.",
+    "type": "resume_section",
+    "user_id": 70,
+    "vector_id": 161
+  },
+  "162": {
+    "db_vector_id": 251,
+    "resume_id": 33,
+    "section_type": "education",
+    "skill_id": null,
+    "source_text": "EDUCATION Techno India University, Kolkata, 2023\u20132027 CGPA: 8.38 / 10 B.Tech in Computer Science and Engineering Labanhrad Vidyapith, Kolkata, 2023 80.2% Higher Secondary Education (Science) \u2014 Bengali, English, Mathematics, Physics, Chemistry, Biology Begum Rokeya Smriti Balika Vidyalaya, Kolkata, 2021 75% Secondary Education, WBBSE \u2014 Bengali, English, Mathematics, Life Science, Physical Science, History, Geography",
+    "type": "resume_section",
+    "user_id": 70,
+    "vector_id": 162
+  },
+  "163": {
+    "db_vector_id": 252,
+    "resume_id": 33,
+    "section_type": "projects",
+    "skill_id": null,
+    "source_text": "AI/ML Project-Based Intern \u2014 IBM (PBEL) Jan 2026 Completed IBM's Project-Based Experiential Learning virtual internship, applying AI/ML concepts to hands-on, industry-relevant projects. Java Programming Intern \u2014 CodSoft Dec 2025 Self-Initiated Projects \u2014 DSA & Linux Programming Aug 2024 Implemented core data structures (arrays, linked lists, stacks, queues, trees) and algorithms (sorting, searching, graph traversal) in C++; developed and optimized scripts in Linux to improve system-level efficiency. PROJECTS Fraud Detection App  (Python, ML) Mar 2026 Developed a real-time fraud detection system using a decision-tree classifier, achieving 94% accuracy through feature engineering and EDA; handled imbalanced and missing data, evaluating performance via accuracy, precision, recall, and F1-score.",
+    "type": "resume_section",
+    "user_id": 70,
+    "vector_id": 163
+  },
+  "164": {
+    "db_vector_id": 253,
+    "resume_id": 33,
+    "section_type": "certifications",
+    "skill_id": null,
+    "source_text": "CERTIFICATIONS Machine Learning \u2014 IBM Jan 2026 ETL processes and big data fundamentals; data gathering, identification, and cleaning for analysis. Java Programming \u2014 CodeSoft Jan 2026 Core programming syntax and OOP concepts; procedural programming paradigms and logic-building. Professional Development Workshop \u2014 Certificate of Participation, e133 & TCS Sep 2024 Data Science \u2014 Billion-AI Mar 2024 Comprehensive data lifecycle and stages of analysis; applications for optimizing data efficiency and accuracy. ADDITIONAL INFORMATION Languages:  Bengali (Native), English (Professional), Hindi (Conversational) Core Subjects:  Data Structures & Algorithms, OOP, DBMS, Microprocessors & Microcontrollers, Operating Systems, Computer Networks, Discrete Mathematics, Probability Interests:  IoT Automation, Linux Internals, Full-Stack Development, AI/ML, Data Science, Data Analysis, DevOps",
+    "type": "resume_section",
+    "user_id": 70,
+    "vector_id": 164
+  },
+  "165": {
+    "db_vector_id": 254,
+    "resume_id": 33,
+    "section_type": "full_resume",
+    "skill_id": null,
+    "source_text": "TANISHA DAS B.Tech CSE | Developer | AI-ML & Data Science | Systems & IoT BeleghataKolkata, West Bengal, India \u2022 +91 74392 58995 tanishdas108@gmail.com \u2022 GitHub \u2022 LinkedIn EDUCATION Techno India University, Kolkata, 2023\u20132027 CGPA: 8.38 / 10 B.Tech in Computer Science and Engineering Labanhrad Vidyapith, Kolkata, 2023 80.2% Higher Secondary Education (Science) \u2014 Bengali, English, Mathematics, Physics, Chemistry, Biology Begum Rokeya Smriti Balika Vidyalaya, Kolkata, 2021 75% Secondary Education, WBBSE \u2014 Bengali, English, Mathematics, Life Science, Physical Science, History, Geography TECHNICAL SKILLS Languages: Python, C/C++, Java, Bash, HTML/CSS/JS Frameworks & Libraries: NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib, Plotly, React, Tailwind CSS Backend & Databases: FastAPI, SQLAlchemy, Uvicorn, Express.js, Node.js, JWT Authentication, Data Validation, MySQL Tools & Platforms: Git/GitHub, VS Code, Vite, Jupyter Notebook, Figma, Vercel, Excel, GNOME Embedded & IoT: ESP32-S3, L298N Motor Driver, IR Sensors, PWM Control, PlatformIO, Arduino IDE Soft Skills: Project Management, UI/UX Design, Communication, Teamwork, Web Development WORK EXPERIENCE Data Science Intern \u2014 CodeAlpha Feb 2026 Applied core data science concepts through hands-on projects, building practical, future-ready analytical skills. AI/ML Project-Based Intern \u2014 IBM (PBEL) Jan 2026 Completed IBM's Project-Based Experiential Learning virtual internship, applying AI/ML concepts to hands-on, industry-relevant projects. Java Programming Intern \u2014 CodSoft Dec 2025 Gained hands-on experience developing Java-based solutions while strengthening core programming and object-oriented concepts. Professional Development Workshop \u2014 e133 & Tata Consultancy Services (TCS) 2024 Collaborated on corporate communication and teamwork exercises; strengthened critical thinking and problem-solving through structured, hands-on activities. Self-Initiated Projects \u2014 DSA & Linux Programming Aug 2024 Implemented core data structures (arrays, linked lists, stacks, queues, trees) and algorithms (sorting, searching, graph traversal) in C++; developed and optimized scripts in Linux to improve system-level efficiency. PROJECTS Fraud Detection App (Python, ML) Mar 2026 Developed a real-time fraud detection system using a decision-tree classifier, achieving 94% accuracy through feature engineering and EDA; handled imbalanced and missing data, evaluating performance via accuracy, precision, recall, and F1-score. Unemployment Analysis During COVID-19 (Python, EDA) Jan 2026 Conducted exploratory analysis of unemployment trends before, during, and after COVID-19 using NumPy, Pandas, Matplotlib, and Seaborn; visualized regional disparities and pandemic-driven spikes through charts and heatmaps. Peer-to-Peer File Sharing (Java) Dec 2025 Developed a Java Swing-based file-sharing application using socket programming, event handling, multithreading, and file I/O within a client-server architecture for efficient, user-friendly peer-to-peer transfers. Employee Salary Prediction (Python, Scikit-learn) Sep 2025 Built a regression-based ML model to predict employee salaries from experience, location, and job rate; handled missing values and categorical encoding to achieve 83% accuracy. Dyslexia Assist \u2013 Access ED (Smart India Hackathon) Sep 2025 Built a full-stack adaptive learning platform (React, Tailwind CSS, Node.js, Express.js, Python, Flask, Database, Vercel) with gamified exercises and assistive tools, plus community features that help individuals with dyslexia build confidence and connection. IoT Saree Folding & Pressing Machine (ESP32-S3, C++, L298N Motor Driver, IR Sensors, PlatformIO, PWM) Designed and prototyped a compact, automated saree-folding machine for small textile retailers using PWM-synchronized motor control and real-time IR sensor feedback; resolved position-drift issues through precision stopping and timing calibration, optimizing for low-cost, minimal-intervention deployment. CERTIFICATIONS Machine Learning \u2014 IBM Jan 2026 ETL processes and big data fundamentals; data gathering, identification, and cleaning for analysis. Java Programming \u2014 CodeSoft Jan 2026 Core programming syntax and OOP concepts; procedural programming paradigms and logic-building. Professional Development Workshop \u2014 Certificate of Participation, e133 & TCS Sep 2024 Data Science \u2014 Billion-AI Mar 2024 Comprehensive data lifecycle and stages of analysis; applications for optimizing data efficiency and accuracy. ADDITIONAL INFORMATION Languages: Bengali (Native), English (Professional), Hindi (Conversational) Core Subjects: Data Structures & Algorithms, OOP, DBMS, Microprocessors & Microcontrollers, Operating Systems, Computer Networks, Discrete Mathematics, Probability Interests: IoT Automation, Linux Internals, Full-Stack Development, AI/ML, Data Science, Data Analysis, DevOps",
+    "type": "resume_section",
+    "user_id": 70,
+    "vector_id": 165
+  },
+  "166": {
+    "db_vector_id": 255,
+    "resume_id": 33,
+    "section_type": "skill:AI",
+    "skill_id": 9,
+    "source_text": "AI",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 166
+  },
+  "167": {
+    "db_vector_id": 256,
+    "resume_id": 33,
+    "section_type": "skill:Java",
+    "skill_id": 10,
+    "source_text": "Java",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 167
+  },
+  "168": {
+    "db_vector_id": 257,
+    "resume_id": 33,
+    "section_type": "skill:Python",
+    "skill_id": 3,
+    "source_text": "Python",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 168
+  },
+  "169": {
+    "db_vector_id": 258,
+    "resume_id": 33,
+    "section_type": "skill:C++",
+    "skill_id": 11,
+    "source_text": "C++",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 169
+  },
+  "17": {
+    "db_vector_id": 37,
+    "resume_id": 15,
+    "section_type": "experience",
+    "skill_id": null,
+    "source_text": "Experience: Backend Developer building APIs and data services.",
+    "type": "resume_section",
+    "user_id": 32,
+    "vector_id": 17
+  },
+  "170": {
+    "db_vector_id": 259,
+    "resume_id": 33,
+    "section_type": "skill:API",
+    "skill_id": 1,
+    "source_text": "API",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 170
+  },
+  "171": {
+    "db_vector_id": 260,
+    "resume_id": 33,
+    "section_type": "skill:NumPy",
+    "skill_id": 12,
+    "source_text": "NumPy",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 171
+  },
+  "172": {
+    "db_vector_id": 261,
+    "resume_id": 33,
+    "section_type": "skill:Pandas",
+    "skill_id": 13,
+    "source_text": "Pandas",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 172
+  },
+  "173": {
+    "db_vector_id": 262,
+    "resume_id": 33,
+    "section_type": "skill:Scikit-learn",
+    "skill_id": 14,
+    "source_text": "Scikit-learn",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 173
+  },
+  "174": {
+    "db_vector_id": 263,
+    "resume_id": 33,
+    "section_type": "skill:React",
+    "skill_id": 8,
+    "source_text": "React",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 174
+  },
+  "175": {
+    "db_vector_id": 264,
+    "resume_id": 33,
+    "section_type": "skill:SQL",
+    "skill_id": 2,
+    "source_text": "SQL",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 175
+  },
+  "176": {
+    "db_vector_id": 265,
+    "resume_id": 33,
+    "section_type": "skill:Node.js",
+    "skill_id": 15,
+    "source_text": "Node.js",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 176
+  },
+  "177": {
+    "db_vector_id": 266,
+    "resume_id": 33,
+    "section_type": "skill:Communication",
+    "skill_id": 16,
+    "source_text": "Communication",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 177
+  },
+  "178": {
+    "db_vector_id": 267,
+    "resume_id": 33,
+    "section_type": "skill:FastAPI",
+    "skill_id": 4,
+    "source_text": "FastAPI",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 178
+  },
+  "179": {
+    "db_vector_id": 268,
+    "resume_id": 33,
+    "section_type": "skill:Excel",
+    "skill_id": 17,
+    "source_text": "Excel",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 179
+  },
+  "18": {
+    "db_vector_id": 38,
+    "resume_id": 15,
+    "section_type": "education",
+    "skill_id": null,
+    "source_text": "Education: BSc Computer Science Career goal: AI platform and backend engineering.",
+    "type": "resume_section",
+    "user_id": 32,
+    "vector_id": 18
+  },
+  "180": {
+    "db_vector_id": 269,
+    "resume_id": 33,
+    "section_type": "skill:Flask",
+    "skill_id": 18,
+    "source_text": "Flask",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 180
+  },
+  "181": {
+    "db_vector_id": 270,
+    "resume_id": 33,
+    "section_type": "skill:Mysql",
+    "skill_id": 23,
+    "source_text": "Mysql",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 181
+  },
+  "182": {
+    "db_vector_id": 271,
+    "resume_id": 33,
+    "section_type": "skill:Node.Js",
+    "skill_id": 24,
+    "source_text": "Node.Js",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 182
+  },
+  "183": {
+    "db_vector_id": 272,
+    "resume_id": 33,
+    "section_type": "skill:Express",
+    "skill_id": 25,
+    "source_text": "Express",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 183
+  },
+  "184": {
+    "db_vector_id": 273,
+    "resume_id": 33,
+    "section_type": "skill:GIT",
+    "skill_id": 26,
+    "source_text": "GIT",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 184
+  },
+  "185": {
+    "db_vector_id": 274,
+    "resume_id": 33,
+    "section_type": "skill:Github",
+    "skill_id": 27,
+    "source_text": "Github",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 185
+  },
+  "186": {
+    "db_vector_id": 275,
+    "resume_id": 33,
+    "section_type": "skill:Linux",
+    "skill_id": 28,
+    "source_text": "Linux",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 186
+  },
+  "187": {
+    "db_vector_id": 276,
+    "resume_id": 33,
+    "section_type": "skill:Html",
+    "skill_id": 29,
+    "source_text": "Html",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 187
+  },
+  "188": {
+    "db_vector_id": 277,
+    "resume_id": 33,
+    "section_type": "skill:CSS",
+    "skill_id": 30,
+    "source_text": "CSS",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 188
+  },
+  "189": {
+    "db_vector_id": 278,
+    "resume_id": 33,
+    "section_type": "skill:Tailwind",
+    "skill_id": 31,
+    "source_text": "Tailwind",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 189
+  },
+  "19": {
+    "db_vector_id": 39,
+    "resume_id": 15,
+    "section_type": "full_resume",
+    "skill_id": null,
+    "source_text": "Demo Resume Alex Morgan alex.morgan@example.com | +1 555 010 2026 Skills: Python, FastAPI, SQL, PostgreSQL, Docker, AWS, React, Machine Learning Experience: Backend Developer building APIs and data services. Education: BSc Computer Science Career goal: AI platform and backend engineering.",
+    "type": "resume_section",
+    "user_id": 32,
+    "vector_id": 19
+  },
+  "190": {
+    "db_vector_id": 279,
+    "resume_id": 33,
+    "section_type": "skill:Machine Learning",
+    "skill_id": 32,
+    "source_text": "Machine Learning",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 190
+  },
+  "191": {
+    "db_vector_id": 280,
+    "resume_id": 33,
+    "section_type": "skill:Data Analysis",
+    "skill_id": 33,
+    "source_text": "Data Analysis",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 191
+  },
+  "192": {
+    "db_vector_id": 281,
+    "resume_id": 33,
+    "section_type": "skill:Scikit-Learn",
+    "skill_id": 34,
+    "source_text": "Scikit-Learn",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 192
+  },
+  "193": {
+    "db_vector_id": 282,
+    "resume_id": 33,
+    "section_type": "skill:Data Structures",
+    "skill_id": 35,
+    "source_text": "Data Structures",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 193
+  },
+  "194": {
+    "db_vector_id": 283,
+    "resume_id": 33,
+    "section_type": "skill:Algorithms",
+    "skill_id": 36,
+    "source_text": "Algorithms",
+    "type": "skill",
+    "user_id": 70,
+    "vector_id": 194
+  },
+  "195": {
+    "db_vector_id": 284,
+    "resume_id": 34,
+    "section_type": "summary",
+    "skill_id": null,
+    "source_text": "TANISHA DAS B.Tech CSE  |  Developer  |  AI-ML & Data Science  |  Systems & IoT BeleghataKolkata, West Bengal, India   \u2022   +91 74392 58995 tanishdas108@gmail.com   \u2022   GitHub   \u2022   LinkedIn",
+    "type": "resume_section",
+    "user_id": 71,
+    "vector_id": 195
+  },
+  "196": {
+    "db_vector_id": 285,
+    "resume_id": 34,
+    "section_type": "skills",
+    "skill_id": null,
+    "source_text": "TECHNICAL SKILLS Languages:  Python, C/C++, Java, Bash, HTML/CSS/JS Frameworks & Libraries:  NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib, Plotly, React, Tailwind CSS Backend & Databases:  FastAPI, SQLAlchemy, Uvicorn, Express.js, Node.js, JWT Authentication, Data Validation, MySQL Tools & Platforms:  Git/GitHub, VS Code, Vite, Jupyter Notebook, Figma, Vercel, Excel, GNOME Embedded & IoT:  ESP32-S3, L298N Motor Driver, IR Sensors, PWM Control, PlatformIO, Arduino IDE Soft Skills:  Project Management, UI/UX Design, Communication, Teamwork, Web Development Applied core data science concepts through hands-on projects, building practical, future-ready analytical skills.",
+    "type": "resume_section",
+    "user_id": 71,
+    "vector_id": 196
+  },
+  "197": {
+    "db_vector_id": 286,
+    "resume_id": 34,
+    "section_type": "experience",
+    "skill_id": null,
+    "source_text": "WORK EXPERIENCE Data Science Intern \u2014 CodeAlpha Feb 2026 Gained hands-on experience developing Java-based solutions while strengthening core programming and object-oriented concepts. Professional Development Workshop \u2014 e133 & Tata Consultancy Services (TCS) 2024 Collaborated on corporate communication and teamwork exercises; strengthened critical thinking and problem-solving through structured, hands-on activities. Unemployment Analysis During COVID-19  (Python, EDA) Jan 2026 Conducted exploratory analysis of unemployment trends before, during, and after COVID-19 using NumPy, Pandas, Matplotlib, and Seaborn; visualized regional disparities and pandemic-driven spikes through charts and heatmaps. Peer-to-Peer File Sharing  (Java) Dec 2025 Developed a Java Swing-based file-sharing application using socket programming, event handling, multithreading, and file I/O within a client-server architecture for efficient, user-friendly peer-to-peer transfers. Employee Salary Prediction  (Python, Scikit-learn) Sep 2025 Built a regression-based ML model to predict employee salaries from experience, location, and job rate; handled missing values and categorical encoding to achieve 83% accuracy. Dyslexia Assist \u2013 Access ED  (Smart India Hackathon) Sep 2025 Built a full-stack adaptive learning platform (React, Tailwind CSS, Node.js, Express.js, Python, Flask, Database, Vercel) with gamified exercises and assistive tools, plus community features that help individuals with dyslexia build confidence and connection. IoT Saree Folding & Pressing Machine  (ESP32-S3, C++, L298N Motor Driver, IR Sensors, PlatformIO, PWM) Designed and prototyped a compact, automated saree-folding machine for small textile retailers using PWM-synchronized motor control and real-time IR sensor feedback; resolved position-drift issues through precision stopping and timing calibration, optimizing for low-cost, minimal-intervention deployment.",
+    "type": "resume_section",
+    "user_id": 71,
+    "vector_id": 197
+  },
+  "198": {
+    "db_vector_id": 287,
+    "resume_id": 34,
+    "section_type": "education",
+    "skill_id": null,
+    "source_text": "EDUCATION Techno India University, Kolkata, 2023\u20132027 CGPA: 8.38 / 10 B.Tech in Computer Science and Engineering Labanhrad Vidyapith, Kolkata, 2023 80.2% Higher Secondary Education (Science) \u2014 Bengali, English, Mathematics, Physics, Chemistry, Biology Begum Rokeya Smriti Balika Vidyalaya, Kolkata, 2021 75% Secondary Education, WBBSE \u2014 Bengali, English, Mathematics, Life Science, Physical Science, History, Geography",
+    "type": "resume_section",
+    "user_id": 71,
+    "vector_id": 198
+  },
+  "199": {
+    "db_vector_id": 288,
+    "resume_id": 34,
+    "section_type": "projects",
+    "skill_id": null,
+    "source_text": "AI/ML Project-Based Intern \u2014 IBM (PBEL) Jan 2026 Completed IBM's Project-Based Experiential Learning virtual internship, applying AI/ML concepts to hands-on, industry-relevant projects. Java Programming Intern \u2014 CodSoft Dec 2025 Self-Initiated Projects \u2014 DSA & Linux Programming Aug 2024 Implemented core data structures (arrays, linked lists, stacks, queues, trees) and algorithms (sorting, searching, graph traversal) in C++; developed and optimized scripts in Linux to improve system-level efficiency. PROJECTS Fraud Detection App  (Python, ML) Mar 2026 Developed a real-time fraud detection system using a decision-tree classifier, achieving 94% accuracy through feature engineering and EDA; handled imbalanced and missing data, evaluating performance via accuracy, precision, recall, and F1-score.",
+    "type": "resume_section",
+    "user_id": 71,
+    "vector_id": 199
+  },
+  "2": {
+    "db_vector_id": 22,
+    "resume_id": 14,
+    "section_type": "skills",
+    "skill_id": null,
+    "source_text": "Skills: Python, FastAPI, SQL, PostgreSQL, Docker, AWS, React, Machine Learning",
+    "type": "resume_section",
+    "user_id": 29,
+    "vector_id": 2
+  },
+  "20": {
+    "db_vector_id": 40,
+    "resume_id": 15,
+    "section_type": "skill:API",
+    "skill_id": 1,
+    "source_text": "API",
+    "type": "skill",
+    "user_id": 32,
+    "vector_id": 20
+  },
+  "200": {
+    "db_vector_id": 289,
+    "resume_id": 34,
+    "section_type": "certifications",
+    "skill_id": null,
+    "source_text": "CERTIFICATIONS Machine Learning \u2014 IBM Jan 2026 ETL processes and big data fundamentals; data gathering, identification, and cleaning for analysis. Java Programming \u2014 CodeSoft Jan 2026 Core programming syntax and OOP concepts; procedural programming paradigms and logic-building. Professional Development Workshop \u2014 Certificate of Participation, e133 & TCS Sep 2024 Data Science \u2014 Billion-AI Mar 2024 Comprehensive data lifecycle and stages of analysis; applications for optimizing data efficiency and accuracy. ADDITIONAL INFORMATION Languages:  Bengali (Native), English (Professional), Hindi (Conversational) Core Subjects:  Data Structures & Algorithms, OOP, DBMS, Microprocessors & Microcontrollers, Operating Systems, Computer Networks, Discrete Mathematics, Probability Interests:  IoT Automation, Linux Internals, Full-Stack Development, AI/ML, Data Science, Data Analysis, DevOps",
+    "type": "resume_section",
+    "user_id": 71,
+    "vector_id": 200
+  },
+  "201": {
+    "db_vector_id": 290,
+    "resume_id": 34,
+    "section_type": "full_resume",
+    "skill_id": null,
+    "source_text": "TANISHA DAS B.Tech CSE | Developer | AI-ML & Data Science | Systems & IoT BeleghataKolkata, West Bengal, India \u2022 +91 74392 58995 tanishdas108@gmail.com \u2022 GitHub \u2022 LinkedIn EDUCATION Techno India University, Kolkata, 2023\u20132027 CGPA: 8.38 / 10 B.Tech in Computer Science and Engineering Labanhrad Vidyapith, Kolkata, 2023 80.2% Higher Secondary Education (Science) \u2014 Bengali, English, Mathematics, Physics, Chemistry, Biology Begum Rokeya Smriti Balika Vidyalaya, Kolkata, 2021 75% Secondary Education, WBBSE \u2014 Bengali, English, Mathematics, Life Science, Physical Science, History, Geography TECHNICAL SKILLS Languages: Python, C/C++, Java, Bash, HTML/CSS/JS Frameworks & Libraries: NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib, Plotly, React, Tailwind CSS Backend & Databases: FastAPI, SQLAlchemy, Uvicorn, Express.js, Node.js, JWT Authentication, Data Validation, MySQL Tools & Platforms: Git/GitHub, VS Code, Vite, Jupyter Notebook, Figma, Vercel, Excel, GNOME Embedded & IoT: ESP32-S3, L298N Motor Driver, IR Sensors, PWM Control, PlatformIO, Arduino IDE Soft Skills: Project Management, UI/UX Design, Communication, Teamwork, Web Development WORK EXPERIENCE Data Science Intern \u2014 CodeAlpha Feb 2026 Applied core data science concepts through hands-on projects, building practical, future-ready analytical skills. AI/ML Project-Based Intern \u2014 IBM (PBEL) Jan 2026 Completed IBM's Project-Based Experiential Learning virtual internship, applying AI/ML concepts to hands-on, industry-relevant projects. Java Programming Intern \u2014 CodSoft Dec 2025 Gained hands-on experience developing Java-based solutions while strengthening core programming and object-oriented concepts. Professional Development Workshop \u2014 e133 & Tata Consultancy Services (TCS) 2024 Collaborated on corporate communication and teamwork exercises; strengthened critical thinking and problem-solving through structured, hands-on activities. Self-Initiated Projects \u2014 DSA & Linux Programming Aug 2024 Implemented core data structures (arrays, linked lists, stacks, queues, trees) and algorithms (sorting, searching, graph traversal) in C++; developed and optimized scripts in Linux to improve system-level efficiency. PROJECTS Fraud Detection App (Python, ML) Mar 2026 Developed a real-time fraud detection system using a decision-tree classifier, achieving 94% accuracy through feature engineering and EDA; handled imbalanced and missing data, evaluating performance via accuracy, precision, recall, and F1-score. Unemployment Analysis During COVID-19 (Python, EDA) Jan 2026 Conducted exploratory analysis of unemployment trends before, during, and after COVID-19 using NumPy, Pandas, Matplotlib, and Seaborn; visualized regional disparities and pandemic-driven spikes through charts and heatmaps. Peer-to-Peer File Sharing (Java) Dec 2025 Developed a Java Swing-based file-sharing application using socket programming, event handling, multithreading, and file I/O within a client-server architecture for efficient, user-friendly peer-to-peer transfers. Employee Salary Prediction (Python, Scikit-learn) Sep 2025 Built a regression-based ML model to predict employee salaries from experience, location, and job rate; handled missing values and categorical encoding to achieve 83% accuracy. Dyslexia Assist \u2013 Access ED (Smart India Hackathon) Sep 2025 Built a full-stack adaptive learning platform (React, Tailwind CSS, Node.js, Express.js, Python, Flask, Database, Vercel) with gamified exercises and assistive tools, plus community features that help individuals with dyslexia build confidence and connection. IoT Saree Folding & Pressing Machine (ESP32-S3, C++, L298N Motor Driver, IR Sensors, PlatformIO, PWM) Designed and prototyped a compact, automated saree-folding machine for small textile retailers using PWM-synchronized motor control and real-time IR sensor feedback; resolved position-drift issues through precision stopping and timing calibration, optimizing for low-cost, minimal-intervention deployment. CERTIFICATIONS Machine Learning \u2014 IBM Jan 2026 ETL processes and big data fundamentals; data gathering, identification, and cleaning for analysis. Java Programming \u2014 CodeSoft Jan 2026 Core programming syntax and OOP concepts; procedural programming paradigms and logic-building. Professional Development Workshop \u2014 Certificate of Participation, e133 & TCS Sep 2024 Data Science \u2014 Billion-AI Mar 2024 Comprehensive data lifecycle and stages of analysis; applications for optimizing data efficiency and accuracy. ADDITIONAL INFORMATION Languages: Bengali (Native), English (Professional), Hindi (Conversational) Core Subjects: Data Structures & Algorithms, OOP, DBMS, Microprocessors & Microcontrollers, Operating Systems, Computer Networks, Discrete Mathematics, Probability Interests: IoT Automation, Linux Internals, Full-Stack Development, AI/ML, Data Science, Data Analysis, DevOps",
+    "type": "resume_section",
+    "user_id": 71,
+    "vector_id": 201
+  },
+  "202": {
+    "db_vector_id": 291,
+    "resume_id": 34,
+    "section_type": "skill:AI",
+    "skill_id": 9,
+    "source_text": "AI",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 202
+  },
+  "203": {
+    "db_vector_id": 292,
+    "resume_id": 34,
+    "section_type": "skill:Java",
+    "skill_id": 10,
+    "source_text": "Java",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 203
+  },
+  "204": {
+    "db_vector_id": 293,
+    "resume_id": 34,
+    "section_type": "skill:Python",
+    "skill_id": 3,
+    "source_text": "Python",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 204
+  },
+  "205": {
+    "db_vector_id": 294,
+    "resume_id": 34,
+    "section_type": "skill:C++",
+    "skill_id": 11,
+    "source_text": "C++",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 205
+  },
+  "206": {
+    "db_vector_id": 295,
+    "resume_id": 34,
+    "section_type": "skill:API",
+    "skill_id": 1,
+    "source_text": "API",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 206
+  },
+  "207": {
+    "db_vector_id": 296,
+    "resume_id": 34,
+    "section_type": "skill:NumPy",
+    "skill_id": 12,
+    "source_text": "NumPy",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 207
+  },
+  "208": {
+    "db_vector_id": 297,
+    "resume_id": 34,
+    "section_type": "skill:Pandas",
+    "skill_id": 13,
+    "source_text": "Pandas",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 208
+  },
+  "209": {
+    "db_vector_id": 298,
+    "resume_id": 34,
+    "section_type": "skill:Scikit-learn",
+    "skill_id": 14,
+    "source_text": "Scikit-learn",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 209
+  },
+  "21": {
+    "db_vector_id": 41,
+    "resume_id": 15,
+    "section_type": "skill:SQL",
+    "skill_id": 2,
+    "source_text": "SQL",
+    "type": "skill",
+    "user_id": 32,
+    "vector_id": 21
+  },
+  "210": {
+    "db_vector_id": 299,
+    "resume_id": 34,
+    "section_type": "skill:React",
+    "skill_id": 8,
+    "source_text": "React",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 210
+  },
+  "211": {
+    "db_vector_id": 300,
+    "resume_id": 34,
+    "section_type": "skill:SQL",
+    "skill_id": 2,
+    "source_text": "SQL",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 211
+  },
+  "212": {
+    "db_vector_id": 301,
+    "resume_id": 34,
+    "section_type": "skill:Node.js",
+    "skill_id": 15,
+    "source_text": "Node.js",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 212
+  },
+  "213": {
+    "db_vector_id": 302,
+    "resume_id": 34,
+    "section_type": "skill:Communication",
+    "skill_id": 16,
+    "source_text": "Communication",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 213
+  },
+  "214": {
+    "db_vector_id": 303,
+    "resume_id": 34,
+    "section_type": "skill:FastAPI",
+    "skill_id": 4,
+    "source_text": "FastAPI",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 214
+  },
+  "215": {
+    "db_vector_id": 304,
+    "resume_id": 34,
+    "section_type": "skill:Excel",
+    "skill_id": 17,
+    "source_text": "Excel",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 215
+  },
+  "216": {
+    "db_vector_id": 305,
+    "resume_id": 34,
+    "section_type": "skill:Flask",
+    "skill_id": 18,
+    "source_text": "Flask",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 216
+  },
+  "217": {
+    "db_vector_id": 306,
+    "resume_id": 34,
+    "section_type": "skill:Mysql",
+    "skill_id": 23,
+    "source_text": "Mysql",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 217
+  },
+  "218": {
+    "db_vector_id": 307,
+    "resume_id": 34,
+    "section_type": "skill:Node.Js",
+    "skill_id": 24,
+    "source_text": "Node.Js",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 218
+  },
+  "219": {
+    "db_vector_id": 308,
+    "resume_id": 34,
+    "section_type": "skill:Express",
+    "skill_id": 25,
+    "source_text": "Express",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 219
+  },
+  "22": {
+    "db_vector_id": 42,
+    "resume_id": 15,
+    "section_type": "skill:Python",
+    "skill_id": 3,
+    "source_text": "Python",
+    "type": "skill",
+    "user_id": 32,
+    "vector_id": 22
+  },
+  "220": {
+    "db_vector_id": 309,
+    "resume_id": 34,
+    "section_type": "skill:GIT",
+    "skill_id": 26,
+    "source_text": "GIT",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 220
+  },
+  "221": {
+    "db_vector_id": 310,
+    "resume_id": 34,
+    "section_type": "skill:Github",
+    "skill_id": 27,
+    "source_text": "Github",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 221
+  },
+  "222": {
+    "db_vector_id": 311,
+    "resume_id": 34,
+    "section_type": "skill:Linux",
+    "skill_id": 28,
+    "source_text": "Linux",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 222
+  },
+  "223": {
+    "db_vector_id": 312,
+    "resume_id": 34,
+    "section_type": "skill:Html",
+    "skill_id": 29,
+    "source_text": "Html",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 223
+  },
+  "224": {
+    "db_vector_id": 313,
+    "resume_id": 34,
+    "section_type": "skill:CSS",
+    "skill_id": 30,
+    "source_text": "CSS",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 224
+  },
+  "225": {
+    "db_vector_id": 314,
+    "resume_id": 34,
+    "section_type": "skill:Tailwind",
+    "skill_id": 31,
+    "source_text": "Tailwind",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 225
+  },
+  "226": {
+    "db_vector_id": 315,
+    "resume_id": 34,
+    "section_type": "skill:Machine Learning",
+    "skill_id": 32,
+    "source_text": "Machine Learning",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 226
+  },
+  "227": {
+    "db_vector_id": 316,
+    "resume_id": 34,
+    "section_type": "skill:Data Analysis",
+    "skill_id": 33,
+    "source_text": "Data Analysis",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 227
+  },
+  "228": {
+    "db_vector_id": 317,
+    "resume_id": 34,
+    "section_type": "skill:Scikit-Learn",
+    "skill_id": 34,
+    "source_text": "Scikit-Learn",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 228
+  },
+  "229": {
+    "db_vector_id": 318,
+    "resume_id": 34,
+    "section_type": "skill:Data Structures",
+    "skill_id": 35,
+    "source_text": "Data Structures",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 229
+  },
+  "23": {
+    "db_vector_id": 43,
+    "resume_id": 15,
+    "section_type": "skill:FastAPI",
+    "skill_id": 4,
+    "source_text": "FastAPI",
+    "type": "skill",
+    "user_id": 32,
+    "vector_id": 23
+  },
+  "230": {
+    "db_vector_id": 319,
+    "resume_id": 34,
+    "section_type": "skill:Algorithms",
+    "skill_id": 36,
+    "source_text": "Algorithms",
+    "type": "skill",
+    "user_id": 71,
+    "vector_id": 230
+  },
+  "24": {
+    "db_vector_id": 44,
+    "resume_id": 15,
+    "section_type": "skill:PostgreSQL",
+    "skill_id": 5,
+    "source_text": "PostgreSQL",
+    "type": "skill",
+    "user_id": 32,
+    "vector_id": 24
+  },
+  "25": {
+    "db_vector_id": 45,
+    "resume_id": 15,
+    "section_type": "skill:Docker",
+    "skill_id": 6,
+    "source_text": "Docker",
+    "type": "skill",
+    "user_id": 32,
+    "vector_id": 25
+  },
+  "26": {
+    "db_vector_id": 46,
+    "resume_id": 15,
+    "section_type": "skill:AWS",
+    "skill_id": 7,
+    "source_text": "AWS",
+    "type": "skill",
+    "user_id": 32,
+    "vector_id": 26
+  },
+  "27": {
+    "db_vector_id": 47,
+    "resume_id": 15,
+    "section_type": "skill:React",
+    "skill_id": 8,
+    "source_text": "React",
+    "type": "skill",
+    "user_id": 32,
+    "vector_id": 27
+  },
+  "28": {
+    "db_vector_id": 48,
+    "resume_id": 15,
+    "section_type": "skill:AI",
+    "skill_id": 9,
+    "source_text": "AI",
+    "type": "skill",
+    "user_id": 32,
+    "vector_id": 28
+  },
+  "29": {
+    "db_vector_id": 49,
+    "resume_id": 16,
+    "section_type": "summary",
+    "skill_id": null,
+    "source_text": "Demo Resume Alex Morgan alex.morgan@example.com | +1 555 010 2026",
+    "type": "resume_section",
+    "user_id": 34,
+    "vector_id": 29
+  },
+  "3": {
+    "db_vector_id": 23,
+    "resume_id": 14,
+    "section_type": "experience",
+    "skill_id": null,
+    "source_text": "Experience: Backend Developer building APIs and data services.",
+    "type": "resume_section",
+    "user_id": 29,
+    "vector_id": 3
+  },
+  "30": {
+    "db_vector_id": 50,
+    "resume_id": 16,
+    "section_type": "skills",
+    "skill_id": null,
+    "source_text": "Skills: Python, FastAPI, SQL, PostgreSQL, Docker, AWS, React, Machine Learning",
+    "type": "resume_section",
+    "user_id": 34,
+    "vector_id": 30
+  },
+  "31": {
+    "db_vector_id": 51,
+    "resume_id": 16,
+    "section_type": "experience",
+    "skill_id": null,
+    "source_text": "Experience: Backend Developer building APIs and data services.",
+    "type": "resume_section",
+    "user_id": 34,
+    "vector_id": 31
+  },
+  "32": {
+    "db_vector_id": 52,
+    "resume_id": 16,
+    "section_type": "education",
+    "skill_id": null,
+    "source_text": "Education: BSc Computer Science Career goal: AI platform and backend engineering.",
+    "type": "resume_section",
+    "user_id": 34,
+    "vector_id": 32
+  },
+  "33": {
+    "db_vector_id": 53,
+    "resume_id": 16,
+    "section_type": "full_resume",
+    "skill_id": null,
+    "source_text": "Demo Resume Alex Morgan alex.morgan@example.com | +1 555 010 2026 Skills: Python, FastAPI, SQL, PostgreSQL, Docker, AWS, React, Machine Learning Experience: Backend Developer building APIs and data services. Education: BSc Computer Science Career goal: AI platform and backend engineering.",
+    "type": "resume_section",
+    "user_id": 34,
+    "vector_id": 33
+  },
+  "34": {
+    "db_vector_id": 54,
+    "resume_id": 16,
+    "section_type": "skill:API",
+    "skill_id": 1,
+    "source_text": "API",
+    "type": "skill",
+    "user_id": 34,
+    "vector_id": 34
+  },
+  "35": {
+    "db_vector_id": 55,
+    "resume_id": 16,
+    "section_type": "skill:SQL",
+    "skill_id": 2,
+    "source_text": "SQL",
+    "type": "skill",
+    "user_id": 34,
+    "vector_id": 35
+  },
+  "36": {
+    "db_vector_id": 56,
+    "resume_id": 16,
+    "section_type": "skill:Python",
+    "skill_id": 3,
+    "source_text": "Python",
+    "type": "skill",
+    "user_id": 34,
+    "vector_id": 36
+  },
+  "37": {
+    "db_vector_id": 57,
+    "resume_id": 16,
+    "section_type": "skill:FastAPI",
+    "skill_id": 4,
+    "source_text": "FastAPI",
+    "type": "skill",
+    "user_id": 34,
+    "vector_id": 37
+  },
+  "38": {
+    "db_vector_id": 58,
+    "resume_id": 16,
+    "section_type": "skill:PostgreSQL",
+    "skill_id": 5,
+    "source_text": "PostgreSQL",
+    "type": "skill",
+    "user_id": 34,
+    "vector_id": 38
+  },
+  "39": {
+    "db_vector_id": 59,
+    "resume_id": 16,
+    "section_type": "skill:Docker",
+    "skill_id": 6,
+    "source_text": "Docker",
+    "type": "skill",
+    "user_id": 34,
+    "vector_id": 39
+  },
+  "4": {
+    "db_vector_id": 24,
+    "resume_id": 14,
+    "section_type": "education",
+    "skill_id": null,
+    "source_text": "Education: BSc Computer Science Career goal: AI platform and backend engineering.",
+    "type": "resume_section",
+    "user_id": 29,
+    "vector_id": 4
+  },
+  "40": {
+    "db_vector_id": 60,
+    "resume_id": 16,
+    "section_type": "skill:AWS",
+    "skill_id": 7,
+    "source_text": "AWS",
+    "type": "skill",
+    "user_id": 34,
+    "vector_id": 40
+  },
+  "41": {
+    "db_vector_id": 61,
+    "resume_id": 16,
+    "section_type": "skill:React",
+    "skill_id": 8,
+    "source_text": "React",
+    "type": "skill",
+    "user_id": 34,
+    "vector_id": 41
+  },
+  "42": {
+    "db_vector_id": 62,
+    "resume_id": 16,
+    "section_type": "skill:AI",
+    "skill_id": 9,
+    "source_text": "AI",
+    "type": "skill",
+    "user_id": 34,
+    "vector_id": 42
+  },
+  "43": {
+    "db_vector_id": 63,
+    "resume_id": 23,
+    "section_type": "summary",
+    "skill_id": null,
+    "source_text": "TANISHA DAS B.Tech CSE  |  Developer  |  AI-ML & Data Science  |  Systems & IoT BeleghataKolkata, West Bengal, India   \u2022   +91 74392 58995 tanishdas108@gmail.com   \u2022   GitHub   \u2022   LinkedIn",
+    "type": "resume_section",
+    "user_id": 47,
+    "vector_id": 43
+  },
+  "44": {
+    "db_vector_id": 64,
+    "resume_id": 23,
+    "section_type": "skills",
+    "skill_id": null,
+    "source_text": "TECHNICAL SKILLS Languages:  Python, C/C++, Java, Bash, HTML/CSS/JS Frameworks & Libraries:  NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib, Plotly, React, Tailwind CSS Backend & Databases:  FastAPI, SQLAlchemy, Uvicorn, Express.js, Node.js, JWT Authentication, Data Validation, MySQL Tools & Platforms:  Git/GitHub, VS Code, Vite, Jupyter Notebook, Figma, Vercel, Excel, GNOME Embedded & IoT:  ESP32-S3, L298N Motor Driver, IR Sensors, PWM Control, PlatformIO, Arduino IDE Soft Skills:  Project Management, UI/UX Design, Communication, Teamwork, Web Development Applied core data science concepts through hands-on projects, building practical, future-ready analytical skills.",
+    "type": "resume_section",
+    "user_id": 47,
+    "vector_id": 44
+  },
+  "45": {
+    "db_vector_id": 65,
+    "resume_id": 23,
+    "section_type": "experience",
+    "skill_id": null,
+    "source_text": "WORK EXPERIENCE Data Science Intern \u2014 CodeAlpha Feb 2026 Gained hands-on experience developing Java-based solutions while strengthening core programming and object-oriented concepts. Professional Development Workshop \u2014 e133 & Tata Consultancy Services (TCS) 2024 Collaborated on corporate communication and teamwork exercises; strengthened critical thinking and problem-solving through structured, hands-on activities. Unemployment Analysis During COVID-19  (Python, EDA) Jan 2026 Conducted exploratory analysis of unemployment trends before, during, and after COVID-19 using NumPy, Pandas, Matplotlib, and Seaborn; visualized regional disparities and pandemic-driven spikes through charts and heatmaps. Peer-to-Peer File Sharing  (Java) Dec 2025 Developed a Java Swing-based file-sharing application using socket programming, event handling, multithreading, and file I/O within a client-server architecture for efficient, user-friendly peer-to-peer transfers. Employee Salary Prediction  (Python, Scikit-learn) Sep 2025 Built a regression-based ML model to predict employee salaries from experience, location, and job rate; handled missing values and categorical encoding to achieve 83% accuracy. Dyslexia Assist \u2013 Access ED  (Smart India Hackathon) Sep 2025 Built a full-stack adaptive learning platform (React, Tailwind CSS, Node.js, Express.js, Python, Flask, Database, Vercel) with gamified exercises and assistive tools, plus community features that help individuals with dyslexia build confidence and connection. IoT Saree Folding & Pressing Machine  (ESP32-S3, C++, L298N Motor Driver, IR Sensors, PlatformIO, PWM) Designed and prototyped a compact, automated saree-folding machine for small textile retailers using PWM-synchronized motor control and real-time IR sensor feedback; resolved position-drift issues through precision stopping and timing calibration, optimizing for low-cost, minimal-intervention deployment.",
+    "type": "resume_section",
+    "user_id": 47,
+    "vector_id": 45
+  },
+  "46": {
+    "db_vector_id": 66,
+    "resume_id": 23,
+    "section_type": "education",
+    "skill_id": null,
+    "source_text": "EDUCATION Techno India University, Kolkata, 2023\u20132027 CGPA: 8.38 / 10 B.Tech in Computer Science and Engineering Labanhrad Vidyapith, Kolkata, 2023 80.2% Higher Secondary Education (Science) \u2014 Bengali, English, Mathematics, Physics, Chemistry, Biology Begum Rokeya Smriti Balika Vidyalaya, Kolkata, 2021 75% Secondary Education, WBBSE \u2014 Bengali, English, Mathematics, Life Science, Physical Science, History, Geography",
+    "type": "resume_section",
+    "user_id": 47,
+    "vector_id": 46
+  },
+  "47": {
+    "db_vector_id": 67,
+    "resume_id": 23,
+    "section_type": "projects",
+    "skill_id": null,
+    "source_text": "AI/ML Project-Based Intern \u2014 IBM (PBEL) Jan 2026 Completed IBM's Project-Based Experiential Learning virtual internship, applying AI/ML concepts to hands-on, industry-relevant projects. Java Programming Intern \u2014 CodSoft Dec 2025 Self-Initiated Projects \u2014 DSA & Linux Programming Aug 2024 Implemented core data structures (arrays, linked lists, stacks, queues, trees) and algorithms (sorting, searching, graph traversal) in C++; developed and optimized scripts in Linux to improve system-level efficiency. PROJECTS Fraud Detection App  (Python, ML) Mar 2026 Developed a real-time fraud detection system using a decision-tree classifier, achieving 94% accuracy through feature engineering and EDA; handled imbalanced and missing data, evaluating performance via accuracy, precision, recall, and F1-score.",
+    "type": "resume_section",
+    "user_id": 47,
+    "vector_id": 47
+  },
+  "48": {
+    "db_vector_id": 68,
+    "resume_id": 23,
+    "section_type": "certifications",
+    "skill_id": null,
+    "source_text": "CERTIFICATIONS Machine Learning \u2014 IBM Jan 2026 ETL processes and big data fundamentals; data gathering, identification, and cleaning for analysis. Java Programming \u2014 CodeSoft Jan 2026 Core programming syntax and OOP concepts; procedural programming paradigms and logic-building. Professional Development Workshop \u2014 Certificate of Participation, e133 & TCS Sep 2024 Data Science \u2014 Billion-AI Mar 2024 Comprehensive data lifecycle and stages of analysis; applications for optimizing data efficiency and accuracy. ADDITIONAL INFORMATION Languages:  Bengali (Native), English (Professional), Hindi (Conversational) Core Subjects:  Data Structures & Algorithms, OOP, DBMS, Microprocessors & Microcontrollers, Operating Systems, Computer Networks, Discrete Mathematics, Probability Interests:  IoT Automation, Linux Internals, Full-Stack Development, AI/ML, Data Science, Data Analysis, DevOps",
+    "type": "resume_section",
+    "user_id": 47,
+    "vector_id": 48
+  },
+  "49": {
+    "db_vector_id": 69,
+    "resume_id": 23,
+    "section_type": "full_resume",
+    "skill_id": null,
+    "source_text": "TANISHA DAS B.Tech CSE | Developer | AI-ML & Data Science | Systems & IoT BeleghataKolkata, West Bengal, India \u2022 +91 74392 58995 tanishdas108@gmail.com \u2022 GitHub \u2022 LinkedIn EDUCATION Techno India University, Kolkata, 2023\u20132027 CGPA: 8.38 / 10 B.Tech in Computer Science and Engineering Labanhrad Vidyapith, Kolkata, 2023 80.2% Higher Secondary Education (Science) \u2014 Bengali, English, Mathematics, Physics, Chemistry, Biology Begum Rokeya Smriti Balika Vidyalaya, Kolkata, 2021 75% Secondary Education, WBBSE \u2014 Bengali, English, Mathematics, Life Science, Physical Science, History, Geography TECHNICAL SKILLS Languages: Python, C/C++, Java, Bash, HTML/CSS/JS Frameworks & Libraries: NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib, Plotly, React, Tailwind CSS Backend & Databases: FastAPI, SQLAlchemy, Uvicorn, Express.js, Node.js, JWT Authentication, Data Validation, MySQL Tools & Platforms: Git/GitHub, VS Code, Vite, Jupyter Notebook, Figma, Vercel, Excel, GNOME Embedded & IoT: ESP32-S3, L298N Motor Driver, IR Sensors, PWM Control, PlatformIO, Arduino IDE Soft Skills: Project Management, UI/UX Design, Communication, Teamwork, Web Development WORK EXPERIENCE Data Science Intern \u2014 CodeAlpha Feb 2026 Applied core data science concepts through hands-on projects, building practical, future-ready analytical skills. AI/ML Project-Based Intern \u2014 IBM (PBEL) Jan 2026 Completed IBM's Project-Based Experiential Learning virtual internship, applying AI/ML concepts to hands-on, industry-relevant projects. Java Programming Intern \u2014 CodSoft Dec 2025 Gained hands-on experience developing Java-based solutions while strengthening core programming and object-oriented concepts. Professional Development Workshop \u2014 e133 & Tata Consultancy Services (TCS) 2024 Collaborated on corporate communication and teamwork exercises; strengthened critical thinking and problem-solving through structured, hands-on activities. Self-Initiated Projects \u2014 DSA & Linux Programming Aug 2024 Implemented core data structures (arrays, linked lists, stacks, queues, trees) and algorithms (sorting, searching, graph traversal) in C++; developed and optimized scripts in Linux to improve system-level efficiency. PROJECTS Fraud Detection App (Python, ML) Mar 2026 Developed a real-time fraud detection system using a decision-tree classifier, achieving 94% accuracy through feature engineering and EDA; handled imbalanced and missing data, evaluating performance via accuracy, precision, recall, and F1-score. Unemployment Analysis During COVID-19 (Python, EDA) Jan 2026 Conducted exploratory analysis of unemployment trends before, during, and after COVID-19 using NumPy, Pandas, Matplotlib, and Seaborn; visualized regional disparities and pandemic-driven spikes through charts and heatmaps. Peer-to-Peer File Sharing (Java) Dec 2025 Developed a Java Swing-based file-sharing application using socket programming, event handling, multithreading, and file I/O within a client-server architecture for efficient, user-friendly peer-to-peer transfers. Employee Salary Prediction (Python, Scikit-learn) Sep 2025 Built a regression-based ML model to predict employee salaries from experience, location, and job rate; handled missing values and categorical encoding to achieve 83% accuracy. Dyslexia Assist \u2013 Access ED (Smart India Hackathon) Sep 2025 Built a full-stack adaptive learning platform (React, Tailwind CSS, Node.js, Express.js, Python, Flask, Database, Vercel) with gamified exercises and assistive tools, plus community features that help individuals with dyslexia build confidence and connection. IoT Saree Folding & Pressing Machine (ESP32-S3, C++, L298N Motor Driver, IR Sensors, PlatformIO, PWM) Designed and prototyped a compact, automated saree-folding machine for small textile retailers using PWM-synchronized motor control and real-time IR sensor feedback; resolved position-drift issues through precision stopping and timing calibration, optimizing for low-cost, minimal-intervention deployment. CERTIFICATIONS Machine Learning \u2014 IBM Jan 2026 ETL processes and big data fundamentals; data gathering, identification, and cleaning for analysis. Java Programming \u2014 CodeSoft Jan 2026 Core programming syntax and OOP concepts; procedural programming paradigms and logic-building. Professional Development Workshop \u2014 Certificate of Participation, e133 & TCS Sep 2024 Data Science \u2014 Billion-AI Mar 2024 Comprehensive data lifecycle and stages of analysis; applications for optimizing data efficiency and accuracy. ADDITIONAL INFORMATION Languages: Bengali (Native), English (Professional), Hindi (Conversational) Core Subjects: Data Structures & Algorithms, OOP, DBMS, Microprocessors & Microcontrollers, Operating Systems, Computer Networks, Discrete Mathematics, Probability Interests: IoT Automation, Linux Internals, Full-Stack Development, AI/ML, Data Science, Data Analysis, DevOps",
+    "type": "resume_section",
+    "user_id": 47,
+    "vector_id": 49
+  },
+  "5": {
+    "db_vector_id": 25,
+    "resume_id": 14,
+    "section_type": "full_resume",
+    "skill_id": null,
+    "source_text": "Demo Resume Alex Morgan alex.morgan@example.com | +1 555 010 2026 Skills: Python, FastAPI, SQL, PostgreSQL, Docker, AWS, React, Machine Learning Experience: Backend Developer building APIs and data services. Education: BSc Computer Science Career goal: AI platform and backend engineering.",
+    "type": "resume_section",
+    "user_id": 29,
+    "vector_id": 5
+  },
+  "50": {
+    "db_vector_id": 70,
+    "resume_id": 23,
+    "section_type": "skill:AI",
+    "skill_id": 9,
+    "source_text": "AI",
+    "type": "skill",
+    "user_id": 47,
+    "vector_id": 50
+  },
+  "51": {
+    "db_vector_id": 71,
+    "resume_id": 23,
+    "section_type": "skill:Java",
+    "skill_id": 10,
+    "source_text": "Java",
+    "type": "skill",
+    "user_id": 47,
+    "vector_id": 51
+  },
+  "52": {
+    "db_vector_id": 72,
+    "resume_id": 23,
+    "section_type": "skill:Python",
+    "skill_id": 3,
+    "source_text": "Python",
+    "type": "skill",
+    "user_id": 47,
+    "vector_id": 52
+  },
+  "53": {
+    "db_vector_id": 73,
+    "resume_id": 23,
+    "section_type": "skill:C++",
+    "skill_id": 11,
+    "source_text": "C++",
+    "type": "skill",
+    "user_id": 47,
+    "vector_id": 53
+  },
+  "54": {
+    "db_vector_id": 74,
+    "resume_id": 23,
+    "section_type": "skill:API",
+    "skill_id": 1,
+    "source_text": "API",
+    "type": "skill",
+    "user_id": 47,
+    "vector_id": 54
+  },
+  "55": {
+    "db_vector_id": 75,
+    "resume_id": 23,
+    "section_type": "skill:NumPy",
+    "skill_id": 12,
+    "source_text": "NumPy",
+    "type": "skill",
+    "user_id": 47,
+    "vector_id": 55
+  },
+  "56": {
+    "db_vector_id": 76,
+    "resume_id": 23,
+    "section_type": "skill:Pandas",
+    "skill_id": 13,
+    "source_text": "Pandas",
+    "type": "skill",
+    "user_id": 47,
+    "vector_id": 56
+  },
+  "57": {
+    "db_vector_id": 77,
+    "resume_id": 23,
+    "section_type": "skill:Scikit-learn",
+    "skill_id": 14,
+    "source_text": "Scikit-learn",
+    "type": "skill",
+    "user_id": 47,
+    "vector_id": 57
+  },
+  "58": {
+    "db_vector_id": 78,
+    "resume_id": 23,
+    "section_type": "skill:React",
+    "skill_id": 8,
+    "source_text": "React",
+    "type": "skill",
+    "user_id": 47,
+    "vector_id": 58
+  },
+  "59": {
+    "db_vector_id": 79,
+    "resume_id": 23,
+    "section_type": "skill:SQL",
+    "skill_id": 2,
+    "source_text": "SQL",
+    "type": "skill",
+    "user_id": 47,
+    "vector_id": 59
+  },
+  "6": {
+    "db_vector_id": 26,
+    "resume_id": 14,
+    "section_type": "skill:API",
+    "skill_id": 1,
+    "source_text": "API",
+    "type": "skill",
+    "user_id": 29,
+    "vector_id": 6
+  },
+  "60": {
+    "db_vector_id": 80,
+    "resume_id": 23,
+    "section_type": "skill:Node.js",
+    "skill_id": 15,
+    "source_text": "Node.js",
+    "type": "skill",
+    "user_id": 47,
+    "vector_id": 60
+  },
+  "61": {
+    "db_vector_id": 81,
+    "resume_id": 23,
+    "section_type": "skill:Communication",
+    "skill_id": 16,
+    "source_text": "Communication",
+    "type": "skill",
+    "user_id": 47,
+    "vector_id": 61
+  },
+  "62": {
+    "db_vector_id": 82,
+    "resume_id": 23,
+    "section_type": "skill:FastAPI",
+    "skill_id": 4,
+    "source_text": "FastAPI",
+    "type": "skill",
+    "user_id": 47,
+    "vector_id": 62
+  },
+  "63": {
+    "db_vector_id": 83,
+    "resume_id": 23,
+    "section_type": "skill:Excel",
+    "skill_id": 17,
+    "source_text": "Excel",
+    "type": "skill",
+    "user_id": 47,
+    "vector_id": 63
+  },
+  "64": {
+    "db_vector_id": 84,
+    "resume_id": 23,
+    "section_type": "skill:Flask",
+    "skill_id": 18,
+    "source_text": "Flask",
+    "type": "skill",
+    "user_id": 47,
+    "vector_id": 64
+  },
+  "65": {
+    "db_vector_id": 154,
+    "resume_id": 30,
+    "section_type": "summary",
+    "skill_id": null,
+    "source_text": "TANISHA DAS B.Tech CSE  | Developer | AI-ML & data Science| System & IoT Beleghata, Kolkata, West Bengal, India   \u2022   +91 74392 58995   \u2022   tanishdas108@gmail.com   \u2022   GitHub  \u2022   LinkedIn",
+    "type": "resume_section",
+    "user_id": 66,
+    "vector_id": 65
+  },
+  "66": {
+    "db_vector_id": 155,
+    "resume_id": 30,
+    "section_type": "skills",
+    "skill_id": null,
+    "source_text": "TECHNICAL SKILLS Languages:  Python, C/C++, Java, Bash, HTML/CSS/JS Frameworks & Libraries:  NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib, Plotly, React, Tailwind CSS Backend & Databases:  FastAPI, SQLAlchemy, Uvicorn,  JWT Authentication, Data Validation, MySQL Tools & Platforms:  Git/GitHub, VS Code, Vite, Jupyter Notebook, Figma, Vercel, Excel, GNOME Embedded & IoT:  ESP32-S3, L298N Motor Driver, IR Sensors, PWM Control, PlatformIO, Arduino IDE Soft Skills:  Project Management, UI/UX Design, Communication, Teamwork, Web Development Applied core data science concepts through hands-on projects, building practical, future-ready analytical skills. Java Programming Intern \u2014 CodSoft Dec 2025",
+    "type": "resume_section",
+    "user_id": 66,
+    "vector_id": 66
+  },
+  "67": {
+    "db_vector_id": 156,
+    "resume_id": 30,
+    "section_type": "experience",
+    "skill_id": null,
+    "source_text": "WORK EXPERIENCE Gained hands-on experience developing Java-based solutions while strengthening core programming and object-oriented concepts. Professional Development Workshop \u2014 e133 & Tata Consultancy Services (TCS) 2024 Collaborated on corporate communication and teamwork exercises; strengthened critical thinking and problem-solving through structured, hands-on activities. Built a regression-based ML model to predict employee salaries from experience, location, and job rate; handled missing values and categorical encoding to achieve 83% accuracy. Peer-to-Peer File Sharing  (Java) Dec 2025 Developed a Java Swing-based file-sharing application using socket programming, event handling, multithreading, and file I/O within a client-server architecture for efficient, user-friendly peer-to-peer transfers. Unemployment Analysis During COVID-19  (Python, EDA) Jan 2026 Conducted exploratory analysis of unemployment trends before, during, and after COVID-19 using NumPy, Pandas, Matplotlib, and Seaborn; visualized regional disparities and pandemic-driven spikes through charts and heatmaps. Dyslexia Assist \u2013 Access ED  (Smart India Hackathon) Sep 2025 Built a full-stack adaptive learning platform (React, Tailwind CSS, Node.js, Express.js, Python, Flask, Database, Vercel) with gamified exercises and assistive tools, plus community features that help individuals with dyslexia build confidence and connection. Fraud Detection App  (Python, ML) Mar 2026 Developed a real-time fraud detection system using a decision-tree classifier, achieving 94% accuracy through feature engineering and EDA; handled imbalanced and missing data, evaluating performance via accuracy, precision, recall, and F1-score. IoT Saree Folding & Pressing Machine  (ESP32-S3, C++, L298N Motor Driver, IR Sensors, PlatformIO, PWM) Designed and prototyped a compact, automated saree-folding machine for small textile retailers using PWM-synchronized motor control and real-time IR sensor feedback; resolved position-drift issues through precision stopping and timing calibration, optimizing for low-cost, minimal-intervention deployment.",
+    "type": "resume_section",
+    "user_id": 66,
+    "vector_id": 67
+  },
+  "68": {
+    "db_vector_id": 157,
+    "resume_id": 30,
+    "section_type": "education",
+    "skill_id": null,
+    "source_text": "EDUCATION Techno India University, Kolkata, 2023-2027 CGPA: 8.38 / 10 B.Tech in Computer Science and Engineering Labanhrad Vidyapith, Kolkata, 2023 80.2% Higher Secondary Education (Science) \u2014 Bengali, English, Mathematics, Physics, Chemistry, Biology Begum Rokeya Smriti Balika Vidyalaya, Kolkata, 2021 75% Secondary Education, WBBSE \u2014 Bengali, English, Mathematics, Life Science, Physical Science, History, Geography",
+    "type": "resume_section",
+    "user_id": 66,
+    "vector_id": 68
+  },
+  "69": {
+    "db_vector_id": 158,
+    "resume_id": 30,
+    "section_type": "projects",
+    "skill_id": null,
+    "source_text": "AI/ML Project-Based Intern \u2014 IBM (PBEL) Jan 2026 Completed IBM's Project-Based Experiential Learning virtual internship, applying AI/ML concepts to hands-on, industry-relevant projects. Data Science Intern \u2014 CodeAlpha Feb 2026 Self-Initiated Projects \u2014 DSA & Linux Programming Aug 2024 Implemented core data structures (arrays, linked lists, stacks, queues, trees) and algorithms (sorting, searching, graph traversal) in C++; developed and optimized scripts in Linux to improve system-level efficiency. PROJECTS Employee Salary Prediction  (Python, Scikit-learn) Sep 2025",
+    "type": "resume_section",
+    "user_id": 66,
+    "vector_id": 69
+  },
+  "7": {
+    "db_vector_id": 27,
+    "resume_id": 14,
+    "section_type": "skill:SQL",
+    "skill_id": 2,
+    "source_text": "SQL",
+    "type": "skill",
+    "user_id": 29,
+    "vector_id": 7
+  },
+  "70": {
+    "db_vector_id": 159,
+    "resume_id": 30,
+    "section_type": "certifications",
+    "skill_id": null,
+    "source_text": "CERTIFICATIONS Machine Learning \u2014 IBM Jan 2026 ETL processes and big data fundamentals; data gathering, identification, and cleaning for analysis. Java Programming \u2014 CodeSoft Jan 2026 Core programming syntax and OOP concepts; procedural programming paradigms and logic-building. Data Science \u2014 Billion-AI Mar 2024 Comprehensive data lifecycle and stages of analysis; applications for optimizing data efficiency and accuracy. Professional Development Workshop \u2014 Certificate of Participation, e133 & TCS Sep 2024 ADDITIONAL INFORMATION Languages:  Bengali (Native), English (Professional), Hindi (Conversational) Core Subjects:  Data Structures & Algorithms, OOP, DBMS, Microprocessors & Microcontrollers, Operating Systems, Computer Networks, Discrete Mathematics, Probability Interests:  IoT Automation, Linux Internals, Full-Stack Development, AI/ML, Data Science, Data Analysis, DevOps",
+    "type": "resume_section",
+    "user_id": 66,
+    "vector_id": 70
+  },
+  "71": {
+    "db_vector_id": 160,
+    "resume_id": 30,
+    "section_type": "full_resume",
+    "skill_id": null,
+    "source_text": "TANISHA DAS B.Tech CSE | Developer | AI-ML & data Science| System & IoT Beleghata, Kolkata, West Bengal, India \u2022 +91 74392 58995 \u2022 tanishdas108@gmail.com \u2022 GitHub \u2022 LinkedIn EDUCATION Techno India University, Kolkata, 2023-2027 CGPA: 8.38 / 10 B.Tech in Computer Science and Engineering Labanhrad Vidyapith, Kolkata, 2023 80.2% Higher Secondary Education (Science) \u2014 Bengali, English, Mathematics, Physics, Chemistry, Biology Begum Rokeya Smriti Balika Vidyalaya, Kolkata, 2021 75% Secondary Education, WBBSE \u2014 Bengali, English, Mathematics, Life Science, Physical Science, History, Geography TECHNICAL SKILLS Languages: Python, C/C++, Java, Bash, HTML/CSS/JS Frameworks & Libraries: NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib, Plotly, React, Tailwind CSS Backend & Databases: FastAPI, SQLAlchemy, Uvicorn, JWT Authentication, Data Validation, MySQL Tools & Platforms: Git/GitHub, VS Code, Vite, Jupyter Notebook, Figma, Vercel, Excel, GNOME Embedded & IoT: ESP32-S3, L298N Motor Driver, IR Sensors, PWM Control, PlatformIO, Arduino IDE Soft Skills: Project Management, UI/UX Design, Communication, Teamwork, Web Development WORK EXPERIENCE AI/ML Project-Based Intern \u2014 IBM (PBEL) Jan 2026 Completed IBM's Project-Based Experiential Learning virtual internship, applying AI/ML concepts to hands-on, industry-relevant projects. Data Science Intern \u2014 CodeAlpha Feb 2026 Applied core data science concepts through hands-on projects, building practical, future-ready analytical skills. Java Programming Intern \u2014 CodSoft Dec 2025 Gained hands-on experience developing Java-based solutions while strengthening core programming and object-oriented concepts. Professional Development Workshop \u2014 e133 & Tata Consultancy Services (TCS) 2024 Collaborated on corporate communication and teamwork exercises; strengthened critical thinking and problem-solving through structured, hands-on activities. Self-Initiated Projects \u2014 DSA & Linux Programming Aug 2024 Implemented core data structures (arrays, linked lists, stacks, queues, trees) and algorithms (sorting, searching, graph traversal) in C++; developed and optimized scripts in Linux to improve system-level efficiency. PROJECTS Employee Salary Prediction (Python, Scikit-learn) Sep 2025 Built a regression-based ML model to predict employee salaries from experience, location, and job rate; handled missing values and categorical encoding to achieve 83% accuracy. Peer-to-Peer File Sharing (Java) Dec 2025 Developed a Java Swing-based file-sharing application using socket programming, event handling, multithreading, and file I/O within a client-server architecture for efficient, user-friendly peer-to-peer transfers. Unemployment Analysis During COVID-19 (Python, EDA) Jan 2026 Conducted exploratory analysis of unemployment trends before, during, and after COVID-19 using NumPy, Pandas, Matplotlib, and Seaborn; visualized regional disparities and pandemic-driven spikes through charts and heatmaps. Dyslexia Assist \u2013 Access ED (Smart India Hackathon) Sep 2025 Built a full-stack adaptive learning platform (React, Tailwind CSS, Node.js, Express.js, Python, Flask, Database, Vercel) with gamified exercises and assistive tools, plus community features that help individuals with dyslexia build confidence and connection. Fraud Detection App (Python, ML) Mar 2026 Developed a real-time fraud detection system using a decision-tree classifier, achieving 94% accuracy through feature engineering and EDA; handled imbalanced and missing data, evaluating performance via accuracy, precision, recall, and F1-score. IoT Saree Folding & Pressing Machine (ESP32-S3, C++, L298N Motor Driver, IR Sensors, PlatformIO, PWM) Designed and prototyped a compact, automated saree-folding machine for small textile retailers using PWM-synchronized motor control and real-time IR sensor feedback; resolved position-drift issues through precision stopping and timing calibration, optimizing for low-cost, minimal-intervention deployment. CERTIFICATIONS Machine Learning \u2014 IBM Jan 2026 ETL processes and big data fundamentals; data gathering, identification, and cleaning for analysis. Java Programming \u2014 CodeSoft Jan 2026 Core programming syntax and OOP concepts; procedural programming paradigms and logic-building. Data Science \u2014 Billion-AI Mar 2024 Comprehensive data lifecycle and stages of analysis; applications for optimizing data efficiency and accuracy. Professional Development Workshop \u2014 Certificate of Participation, e133 & TCS Sep 2024 ADDITIONAL INFORMATION Languages: Bengali (Native), English (Professional), Hindi (Conversational) Core Subjects: Data Structures & Algorithms, OOP, DBMS, Microprocessors & Microcontrollers, Operating Systems, Computer Networks, Discrete Mathematics, Probability Interests: IoT Automation, Linux Internals, Full-Stack Development, AI/ML, Data Science, Data Analysis, DevOps",
+    "type": "resume_section",
+    "user_id": 66,
+    "vector_id": 71
+  },
+  "72": {
+    "db_vector_id": 161,
+    "resume_id": 30,
+    "section_type": "skill:AI",
+    "skill_id": 9,
+    "source_text": "AI",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 72
+  },
+  "73": {
+    "db_vector_id": 162,
+    "resume_id": 30,
+    "section_type": "skill:Java",
+    "skill_id": 10,
+    "source_text": "Java",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 73
+  },
+  "74": {
+    "db_vector_id": 163,
+    "resume_id": 30,
+    "section_type": "skill:Python",
+    "skill_id": 3,
+    "source_text": "Python",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 74
+  },
+  "75": {
+    "db_vector_id": 164,
+    "resume_id": 30,
+    "section_type": "skill:C++",
+    "skill_id": 11,
+    "source_text": "C++",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 75
+  },
+  "76": {
+    "db_vector_id": 165,
+    "resume_id": 30,
+    "section_type": "skill:API",
+    "skill_id": 1,
+    "source_text": "API",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 76
+  },
+  "77": {
+    "db_vector_id": 166,
+    "resume_id": 30,
+    "section_type": "skill:NumPy",
+    "skill_id": 12,
+    "source_text": "NumPy",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 77
+  },
+  "78": {
+    "db_vector_id": 167,
+    "resume_id": 30,
+    "section_type": "skill:Pandas",
+    "skill_id": 13,
+    "source_text": "Pandas",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 78
+  },
+  "79": {
+    "db_vector_id": 168,
+    "resume_id": 30,
+    "section_type": "skill:Scikit-learn",
+    "skill_id": 14,
+    "source_text": "Scikit-learn",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 79
+  },
+  "8": {
+    "db_vector_id": 28,
+    "resume_id": 14,
+    "section_type": "skill:Python",
+    "skill_id": 3,
+    "source_text": "Python",
+    "type": "skill",
+    "user_id": 29,
+    "vector_id": 8
+  },
+  "80": {
+    "db_vector_id": 169,
+    "resume_id": 30,
+    "section_type": "skill:React",
+    "skill_id": 8,
+    "source_text": "React",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 80
+  },
+  "81": {
+    "db_vector_id": 170,
+    "resume_id": 30,
+    "section_type": "skill:SQL",
+    "skill_id": 2,
+    "source_text": "SQL",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 81
+  },
+  "82": {
+    "db_vector_id": 171,
+    "resume_id": 30,
+    "section_type": "skill:Communication",
+    "skill_id": 16,
+    "source_text": "Communication",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 82
+  },
+  "83": {
+    "db_vector_id": 172,
+    "resume_id": 30,
+    "section_type": "skill:FastAPI",
+    "skill_id": 4,
+    "source_text": "FastAPI",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 83
+  },
+  "84": {
+    "db_vector_id": 173,
+    "resume_id": 30,
+    "section_type": "skill:Excel",
+    "skill_id": 17,
+    "source_text": "Excel",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 84
+  },
+  "85": {
+    "db_vector_id": 174,
+    "resume_id": 30,
+    "section_type": "skill:Node.js",
+    "skill_id": 15,
+    "source_text": "Node.js",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 85
+  },
+  "86": {
+    "db_vector_id": 175,
+    "resume_id": 30,
+    "section_type": "skill:Flask",
+    "skill_id": 18,
+    "source_text": "Flask",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 86
+  },
+  "87": {
+    "db_vector_id": 176,
+    "resume_id": 31,
+    "section_type": "summary",
+    "skill_id": null,
+    "source_text": "TANISHA DAS B.Tech CSE  | Developer | AI-ML & data Science| System & IoT Beleghata, Kolkata, West Bengal, India   \u2022   +91 74392 58995   \u2022   tanishdas108@gmail.com   \u2022   GitHub  \u2022   LinkedIn",
+    "type": "resume_section",
+    "user_id": 66,
+    "vector_id": 87
+  },
+  "88": {
+    "db_vector_id": 177,
+    "resume_id": 31,
+    "section_type": "skills",
+    "skill_id": null,
+    "source_text": "TECHNICAL SKILLS Languages:  Python, C/C++, Java, Bash, HTML/CSS/JS Frameworks & Libraries:  NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib, Plotly, React, Tailwind CSS Backend & Databases:  FastAPI, SQLAlchemy, Uvicorn,  JWT Authentication, Data Validation, MySQL Tools & Platforms:  Git/GitHub, VS Code, Vite, Jupyter Notebook, Figma, Vercel, Excel, GNOME Embedded & IoT:  ESP32-S3, L298N Motor Driver, IR Sensors, PWM Control, PlatformIO, Arduino IDE Soft Skills:  Project Management, UI/UX Design, Communication, Teamwork, Web Development Applied core data science concepts through hands-on projects, building practical, future-ready analytical skills. Java Programming Intern \u2014 CodSoft Dec 2025",
+    "type": "resume_section",
+    "user_id": 66,
+    "vector_id": 88
+  },
+  "89": {
+    "db_vector_id": 178,
+    "resume_id": 31,
+    "section_type": "experience",
+    "skill_id": null,
+    "source_text": "WORK EXPERIENCE Gained hands-on experience developing Java-based solutions while strengthening core programming and object-oriented concepts. Professional Development Workshop \u2014 e133 & Tata Consultancy Services (TCS) 2024 Collaborated on corporate communication and teamwork exercises; strengthened critical thinking and problem-solving through structured, hands-on activities. Built a regression-based ML model to predict employee salaries from experience, location, and job rate; handled missing values and categorical encoding to achieve 83% accuracy. Peer-to-Peer File Sharing  (Java) Dec 2025 Developed a Java Swing-based file-sharing application using socket programming, event handling, multithreading, and file I/O within a client-server architecture for efficient, user-friendly peer-to-peer transfers. Unemployment Analysis During COVID-19  (Python, EDA) Jan 2026 Conducted exploratory analysis of unemployment trends before, during, and after COVID-19 using NumPy, Pandas, Matplotlib, and Seaborn; visualized regional disparities and pandemic-driven spikes through charts and heatmaps. Dyslexia Assist \u2013 Access ED  (Smart India Hackathon) Sep 2025 Built a full-stack adaptive learning platform (React, Tailwind CSS, Node.js, Express.js, Python, Flask, Database, Vercel) with gamified exercises and assistive tools, plus community features that help individuals with dyslexia build confidence and connection. Fraud Detection App  (Python, ML) Mar 2026 Developed a real-time fraud detection system using a decision-tree classifier, achieving 94% accuracy through feature engineering and EDA; handled imbalanced and missing data, evaluating performance via accuracy, precision, recall, and F1-score. IoT Saree Folding & Pressing Machine  (ESP32-S3, C++, L298N Motor Driver, IR Sensors, PlatformIO, PWM) Designed and prototyped a compact, automated saree-folding machine for small textile retailers using PWM-synchronized motor control and real-time IR sensor feedback; resolved position-drift issues through precision stopping and timing calibration, optimizing for low-cost, minimal-intervention deployment.",
+    "type": "resume_section",
+    "user_id": 66,
+    "vector_id": 89
+  },
+  "9": {
+    "db_vector_id": 29,
+    "resume_id": 14,
+    "section_type": "skill:FastAPI",
+    "skill_id": 4,
+    "source_text": "FastAPI",
+    "type": "skill",
+    "user_id": 29,
+    "vector_id": 9
+  },
+  "90": {
+    "db_vector_id": 179,
+    "resume_id": 31,
+    "section_type": "education",
+    "skill_id": null,
+    "source_text": "EDUCATION Techno India University, Kolkata, 2023-2027 CGPA: 8.38 / 10 B.Tech in Computer Science and Engineering Labanhrad Vidyapith, Kolkata, 2023 80.2% Higher Secondary Education (Science) \u2014 Bengali, English, Mathematics, Physics, Chemistry, Biology Begum Rokeya Smriti Balika Vidyalaya, Kolkata, 2021 75% Secondary Education, WBBSE \u2014 Bengali, English, Mathematics, Life Science, Physical Science, History, Geography",
+    "type": "resume_section",
+    "user_id": 66,
+    "vector_id": 90
+  },
+  "91": {
+    "db_vector_id": 180,
+    "resume_id": 31,
+    "section_type": "projects",
+    "skill_id": null,
+    "source_text": "AI/ML Project-Based Intern \u2014 IBM (PBEL) Jan 2026 Completed IBM's Project-Based Experiential Learning virtual internship, applying AI/ML concepts to hands-on, industry-relevant projects. Data Science Intern \u2014 CodeAlpha Feb 2026 Self-Initiated Projects \u2014 DSA & Linux Programming Aug 2024 Implemented core data structures (arrays, linked lists, stacks, queues, trees) and algorithms (sorting, searching, graph traversal) in C++; developed and optimized scripts in Linux to improve system-level efficiency. PROJECTS Employee Salary Prediction  (Python, Scikit-learn) Sep 2025",
+    "type": "resume_section",
+    "user_id": 66,
+    "vector_id": 91
+  },
+  "92": {
+    "db_vector_id": 181,
+    "resume_id": 31,
+    "section_type": "certifications",
+    "skill_id": null,
+    "source_text": "CERTIFICATIONS Machine Learning \u2014 IBM Jan 2026 ETL processes and big data fundamentals; data gathering, identification, and cleaning for analysis. Java Programming \u2014 CodeSoft Jan 2026 Core programming syntax and OOP concepts; procedural programming paradigms and logic-building. Data Science \u2014 Billion-AI Mar 2024 Comprehensive data lifecycle and stages of analysis; applications for optimizing data efficiency and accuracy. Professional Development Workshop \u2014 Certificate of Participation, e133 & TCS Sep 2024 ADDITIONAL INFORMATION Languages:  Bengali (Native), English (Professional), Hindi (Conversational) Core Subjects:  Data Structures & Algorithms, OOP, DBMS, Microprocessors & Microcontrollers, Operating Systems, Computer Networks, Discrete Mathematics, Probability Interests:  IoT Automation, Linux Internals, Full-Stack Development, AI/ML, Data Science, Data Analysis, DevOps",
+    "type": "resume_section",
+    "user_id": 66,
+    "vector_id": 92
+  },
+  "93": {
+    "db_vector_id": 182,
+    "resume_id": 31,
+    "section_type": "full_resume",
+    "skill_id": null,
+    "source_text": "TANISHA DAS B.Tech CSE | Developer | AI-ML & data Science| System & IoT Beleghata, Kolkata, West Bengal, India \u2022 +91 74392 58995 \u2022 tanishdas108@gmail.com \u2022 GitHub \u2022 LinkedIn EDUCATION Techno India University, Kolkata, 2023-2027 CGPA: 8.38 / 10 B.Tech in Computer Science and Engineering Labanhrad Vidyapith, Kolkata, 2023 80.2% Higher Secondary Education (Science) \u2014 Bengali, English, Mathematics, Physics, Chemistry, Biology Begum Rokeya Smriti Balika Vidyalaya, Kolkata, 2021 75% Secondary Education, WBBSE \u2014 Bengali, English, Mathematics, Life Science, Physical Science, History, Geography TECHNICAL SKILLS Languages: Python, C/C++, Java, Bash, HTML/CSS/JS Frameworks & Libraries: NumPy, Pandas, Scikit-learn, Seaborn, Matplotlib, Plotly, React, Tailwind CSS Backend & Databases: FastAPI, SQLAlchemy, Uvicorn, JWT Authentication, Data Validation, MySQL Tools & Platforms: Git/GitHub, VS Code, Vite, Jupyter Notebook, Figma, Vercel, Excel, GNOME Embedded & IoT: ESP32-S3, L298N Motor Driver, IR Sensors, PWM Control, PlatformIO, Arduino IDE Soft Skills: Project Management, UI/UX Design, Communication, Teamwork, Web Development WORK EXPERIENCE AI/ML Project-Based Intern \u2014 IBM (PBEL) Jan 2026 Completed IBM's Project-Based Experiential Learning virtual internship, applying AI/ML concepts to hands-on, industry-relevant projects. Data Science Intern \u2014 CodeAlpha Feb 2026 Applied core data science concepts through hands-on projects, building practical, future-ready analytical skills. Java Programming Intern \u2014 CodSoft Dec 2025 Gained hands-on experience developing Java-based solutions while strengthening core programming and object-oriented concepts. Professional Development Workshop \u2014 e133 & Tata Consultancy Services (TCS) 2024 Collaborated on corporate communication and teamwork exercises; strengthened critical thinking and problem-solving through structured, hands-on activities. Self-Initiated Projects \u2014 DSA & Linux Programming Aug 2024 Implemented core data structures (arrays, linked lists, stacks, queues, trees) and algorithms (sorting, searching, graph traversal) in C++; developed and optimized scripts in Linux to improve system-level efficiency. PROJECTS Employee Salary Prediction (Python, Scikit-learn) Sep 2025 Built a regression-based ML model to predict employee salaries from experience, location, and job rate; handled missing values and categorical encoding to achieve 83% accuracy. Peer-to-Peer File Sharing (Java) Dec 2025 Developed a Java Swing-based file-sharing application using socket programming, event handling, multithreading, and file I/O within a client-server architecture for efficient, user-friendly peer-to-peer transfers. Unemployment Analysis During COVID-19 (Python, EDA) Jan 2026 Conducted exploratory analysis of unemployment trends before, during, and after COVID-19 using NumPy, Pandas, Matplotlib, and Seaborn; visualized regional disparities and pandemic-driven spikes through charts and heatmaps. Dyslexia Assist \u2013 Access ED (Smart India Hackathon) Sep 2025 Built a full-stack adaptive learning platform (React, Tailwind CSS, Node.js, Express.js, Python, Flask, Database, Vercel) with gamified exercises and assistive tools, plus community features that help individuals with dyslexia build confidence and connection. Fraud Detection App (Python, ML) Mar 2026 Developed a real-time fraud detection system using a decision-tree classifier, achieving 94% accuracy through feature engineering and EDA; handled imbalanced and missing data, evaluating performance via accuracy, precision, recall, and F1-score. IoT Saree Folding & Pressing Machine (ESP32-S3, C++, L298N Motor Driver, IR Sensors, PlatformIO, PWM) Designed and prototyped a compact, automated saree-folding machine for small textile retailers using PWM-synchronized motor control and real-time IR sensor feedback; resolved position-drift issues through precision stopping and timing calibration, optimizing for low-cost, minimal-intervention deployment. CERTIFICATIONS Machine Learning \u2014 IBM Jan 2026 ETL processes and big data fundamentals; data gathering, identification, and cleaning for analysis. Java Programming \u2014 CodeSoft Jan 2026 Core programming syntax and OOP concepts; procedural programming paradigms and logic-building. Data Science \u2014 Billion-AI Mar 2024 Comprehensive data lifecycle and stages of analysis; applications for optimizing data efficiency and accuracy. Professional Development Workshop \u2014 Certificate of Participation, e133 & TCS Sep 2024 ADDITIONAL INFORMATION Languages: Bengali (Native), English (Professional), Hindi (Conversational) Core Subjects: Data Structures & Algorithms, OOP, DBMS, Microprocessors & Microcontrollers, Operating Systems, Computer Networks, Discrete Mathematics, Probability Interests: IoT Automation, Linux Internals, Full-Stack Development, AI/ML, Data Science, Data Analysis, DevOps",
+    "type": "resume_section",
+    "user_id": 66,
+    "vector_id": 93
+  },
+  "94": {
+    "db_vector_id": 183,
+    "resume_id": 31,
+    "section_type": "skill:AI",
+    "skill_id": 9,
+    "source_text": "AI",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 94
+  },
+  "95": {
+    "db_vector_id": 184,
+    "resume_id": 31,
+    "section_type": "skill:Java",
+    "skill_id": 10,
+    "source_text": "Java",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 95
+  },
+  "96": {
+    "db_vector_id": 185,
+    "resume_id": 31,
+    "section_type": "skill:Python",
+    "skill_id": 3,
+    "source_text": "Python",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 96
+  },
+  "97": {
+    "db_vector_id": 186,
+    "resume_id": 31,
+    "section_type": "skill:C++",
+    "skill_id": 11,
+    "source_text": "C++",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 97
+  },
+  "98": {
+    "db_vector_id": 187,
+    "resume_id": 31,
+    "section_type": "skill:API",
+    "skill_id": 1,
+    "source_text": "API",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 98
+  },
+  "99": {
+    "db_vector_id": 188,
+    "resume_id": 31,
+    "section_type": "skill:NumPy",
+    "skill_id": 12,
+    "source_text": "NumPy",
+    "type": "skill",
+    "user_id": 66,
+    "vector_id": 99
+  }
+}

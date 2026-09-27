@@ -1,0 +1,41 @@
+ALEX MORGAN
+Backend Engineer
+alex.morgan@example.com | +1-555-010-2048 | Austin, TX
+
+SUMMARY
+Backend engineer with 4 years of experience building reliable APIs and data services. Strong background in Python, FastAPI, PostgreSQL, Docker, and cloud deployment. Interested in AI-powered products and scalable backend systems.
+
+SKILLS
+Python, FastAPI, SQL, PostgreSQL, REST APIs, Docker, AWS, Redis, Git, Linux, pytest, JavaScript, React, Machine Learning, Data Analysis
+
+EXPERIENCE
+Backend Engineer | Northstar Analytics | Austin, TX | 2022 - Present
+- Built FastAPI services used by more than 50,000 monthly users.
+- Designed PostgreSQL schemas and optimized SQL queries, reducing average response time by 35 percent.
+- Containerized services with Docker and deployed them to AWS.
+- Added Redis caching and background jobs for large data processing workflows.
+- Created automated tests with pytest and improved release reliability.
+
+Software Developer | Bright Labs | Dallas, TX | 2020 - 2022
+- Developed Python REST APIs for reporting and customer data platforms.
+- Integrated third-party APIs and created data validation pipelines.
+- Collaborated with frontend engineers using JavaScript and React.
+- Monitored production services and resolved performance issues.
+
+PROJECTS
+Resume Intelligence Platform
+- Built a resume analysis service using Python, FastAPI, PostgreSQL, and FAISS.
+- Split resumes into sections and created searchable vectors for skills, experience, education, and projects.
+- Implemented job matching with skill overlap scoring and semantic similarity search.
+
+Customer Support Assistant
+- Developed a retrieval-based assistant using Python, SQL, and machine learning.
+- Added document search and response evaluation workflows.
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of Texas at Austin | 2020
+
+CERTIFICATIONS
+AWS Certified Cloud Practitioner
+Docker Foundations Certificate

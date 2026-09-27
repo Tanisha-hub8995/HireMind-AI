@@ -1,0 +1,36 @@
+Percentages
+
+A percentage is a number expressed as a fraction of 100.
+
+To calculate x percent of y:
+(x / 100) × y
+
+Percentage increase:
+((New Value - Original Value) / Original Value) × 100
+
+Percentage decrease:
+((Original Value - New Value) / Original Value) × 100
+
+Profit and Loss
+
+Profit = Selling Price - Cost Price
+
+Loss = Cost Price - Selling Price
+
+Profit percentage = (Profit / Cost Price) × 100
+
+Loss percentage = (Loss / Cost Price) × 100
+
+Ratio and Proportion
+
+A ratio compares two quantities.
+
+If a:b = c:d, then a × d = b × c.
+
+Time and Work
+
+If a person completes a work in x days, their one-day work is 1/x.
+
+If two people can complete a work in x and y days respectively, their combined one-day work is:
+
+1/x + 1/y  
