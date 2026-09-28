@@ -33,7 +33,7 @@ export const BadgesCertificatesHub: React.FC = () => {
     { id: 2, title: 'Algorithm Ace', description: 'Attain >80% accuracy in Data Structures & Algorithms', star_level: 2, unlocked: true },
     { id: 3, title: 'System Design Strategist', description: 'Demonstrate deep architecture trade-offs in mock interviews', star_level: 3, unlocked: true },
     { id: 4, title: 'Speech & Verbal Virtuoso', description: 'Achieve >85% communication clarity score via microphone', star_level: 4, unlocked: false },
-    { id: 5, title: 'HireMind AI Grandmaster', description: 'Attain Level 5 seniority and pass 5 mock simulations', star_level: 5, unlocked: false },
+    { id: 5, title: 'RAAHSETU AI Grandmaster', description: 'Attain Level 5 seniority and pass 5 mock simulations', star_level: 5, unlocked: false },
   ];
 
   const badges = badgeData?.badges || defaultBadges;

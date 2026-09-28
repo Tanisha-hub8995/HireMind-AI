@@ -1,10 +1,10 @@
-🧠 HireMind AI
+# 🧠 RAAHSETU AI (HireMind-AI)
 
-AI-Powered Interview Intelligence & Career Preparation Platform
+**Enterprise Multimodal AI-Powered Interview Intelligence & Career Preparation Platform**
 
-«Practice smarter. Interview better. Get hired.»
+*«Practice smarter. Interview better. Get hired.»*
 
-HireMind AI is an intelligent interview and career preparation platform designed to simulate real-world interviews, analyze candidate responses, identify skill gaps, and provide personalized improvement recommendations.
+**RAAHSETU AI** is an intelligent interview and career preparation platform designed to simulate real-world interviews, analyze candidate responses, identify skill gaps, and provide personalized improvement recommendations.
 
 It combines Artificial Intelligence, Machine Learning, Resume Intelligence, Interview Evaluation, Adaptive Questioning, and Career Recommendations into a unified platform.
 
@@ -680,8 +680,9 @@ If you find HireMind AI interesting:
 
 ---
 
-🚀 HireMind AI
+🚀 **RAAHSETU AI**
 
 Your AI-powered interview companion.
 
-«Prepare. Practice. Improve. Get Hired.»
+*«Prepare. Practice. Improve. Get Hired.»*
+

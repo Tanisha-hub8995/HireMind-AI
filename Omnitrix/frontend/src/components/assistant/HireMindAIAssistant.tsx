@@ -43,7 +43,7 @@ export const HireMindAIAssistant: React.FC<HireMindAIAssistantProps> = ({ onNavi
     {
       id: 'welcome',
       sender: 'ai',
-      text: "👋 Welcome to **HireMind AI**! I'm your dedicated platform copilot. Ask me anything about our 3D mock interviews, skill assessments, audio speech evaluation, ATS resume scanner, or verified certificates.",
+      text: "👋 Welcome to **RAAHSETU**! I'm your dedicated platform copilot. Ask me anything about our 3D mock interviews, skill assessments, audio speech evaluation, ATS resume scanner, or verified certificates.",
       time: 'Just now',
     }
   ];
@@ -94,7 +94,7 @@ export const HireMindAIAssistant: React.FC<HireMindAIAssistantProps> = ({ onNavi
 
     if (q.includes('interview') || q.includes('mock') || q.includes('avatar') || q.includes('3d')) {
       return {
-        text: "🎯 **HireMind 3D Mock Interview Engine**:\n\n• **3D Holographic Core**: Reacts in real-time to speaking, listening, and evaluating states.\n• **Speech Recognition & Real Audio**: Supports natural voice recording via microphone, backed by server-side WAV text-to-speech audio.\n• **6-Dimension Scoring**: Correctness, depth, communication clarity, relevance, architecture trade-offs, and pacing.\n• **Adaptive Follow-ups**: The AI analyzes your answer using Qwen SLM and poses realistic engineering follow-up questions.",
+        text: "🎯 **RAAHSETU 3D Mock Interview Engine**:\n\n• **3D Holographic Core**: Reacts in real-time to speaking, listening, and evaluating states.\n• **Speech Recognition & Real Audio**: Supports natural voice recording via microphone, backed by server-side WAV text-to-speech audio.\n• **6-Dimension Scoring**: Correctness, depth, communication clarity, relevance, architecture trade-offs, and pacing.\n• **Adaptive Follow-ups**: The AI analyzes your answer using Qwen SLM and poses realistic engineering follow-up questions.",
         tab: 'interview',
         label: 'Launch Mock Interview'
       };
@@ -142,13 +142,13 @@ export const HireMindAIAssistant: React.FC<HireMindAIAssistantProps> = ({ onNavi
 
     if (q.includes('light') || q.includes('dark') || q.includes('theme')) {
       return {
-        text: "🌓 **Theme Switching**:\n\n• HireMind AI supports both **Dark Obsidian** (cyberpunk engineering aesthetic) and **Light Mode** (crisp high-contrast enterprise theme).\n• Click the Sun/Moon icon in the top navigation bar to toggle anytime! Your preference is automatically saved.",
+        text: "🌓 **Theme Switching**:\n\n• RAAHSETU supports both **Dark Obsidian** (cyberpunk engineering aesthetic) and **Light Mode** (crisp high-contrast enterprise theme).\n• Click the Sun/Moon icon in the top navigation bar to toggle anytime! Your preference is automatically saved.",
       };
     }
 
     // Default intelligent response
     return {
-      text: `HireMind AI is an autonomous career preparation platform. You can:\n\n1. **Practice 3D AI Interviews** with voice questions and rubric feedback.\n2. **Take Timed Assessments** across Aptitude, English, and DSA.\n3. **Scan your Resume** for ATS readiness.\n4. **Download verified certificates** for LinkedIn.\n\nWhat would you like to explore first?`,
+      text: `RAAHSETU is an autonomous career preparation platform. You can:\n\n1. **Practice 3D AI Interviews** with voice questions and rubric feedback.\n2. **Take Timed Assessments** across Aptitude, English, and DSA.\n3. **Scan your Resume** for ATS readiness.\n4. **Download verified certificates** for LinkedIn.\n\nWhat would you like to explore first?`,
       tab: 'dashboard',
       label: 'Explore Platform'
     };
@@ -227,7 +227,7 @@ export const HireMindAIAssistant: React.FC<HireMindAIAssistantProps> = ({ onNavi
                 </div>
                 <div>
                   <div className="flex items-center space-x-1.5">
-                    <span className="font-bold text-sm text-white">HireMind Copilot</span>
+                    <span className="font-bold text-sm text-white">RAAHSETU Copilot</span>
                     <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
                   </div>
                   <span className="text-[10px] text-slate-400 font-mono">Platform Intelligence</span>
@@ -381,7 +381,7 @@ export const HireMindAIAssistant: React.FC<HireMindAIAssistantProps> = ({ onNavi
             <Bot className="w-5 h-5 text-white animate-pulse" />
             <span className="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-emerald-400 border-2 border-[#090D16]" />
           </div>
-          <span className="font-bold tracking-wide">Ask HireMind AI</span>
+          <span className="font-bold tracking-wide">Ask RAAHSETU</span>
           <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-white/20 font-bold uppercase tracking-wider">
             AI
           </span>

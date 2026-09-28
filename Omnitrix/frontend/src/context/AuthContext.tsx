@@ -17,12 +17,12 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<User | null>(null);
-  const [token, setToken] = useState<string | null>(() => localStorage.getItem('hiremind_token') || localStorage.getItem('omnitrix_token'));
+  const [token, setToken] = useState<string | null>(() => localStorage.getItem('raahsetu_token') || localStorage.getItem('hiremind_token') || localStorage.getItem('omnitrix_token'));
   const [loading, setLoading] = useState<boolean>(true);
 
   const fetchUser = async () => {
     try {
-      const activeToken = localStorage.getItem('hiremind_token') || localStorage.getItem('omnitrix_token');
+      const activeToken = localStorage.getItem('raahsetu_token') || localStorage.getItem('hiremind_token') || localStorage.getItem('omnitrix_token');
       if (activeToken) {
         const u = await api.getMe();
         setUser(u);
@@ -31,6 +31,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       }
     } catch (err) {
       console.warn('Could not restore user session:', err);
+      localStorage.removeItem('raahsetu_token');
       localStorage.removeItem('hiremind_token');
       localStorage.removeItem('omnitrix_token');
       setUser(null);
@@ -68,24 +69,28 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const demoLogin = async () => {
     setLoading(true);
-    const demoEmail = 'alex.chen@hiremind.ai';
-    const demoPass = 'HireMindPass123!';
+    const demoEmail = 'alex.chen@raahsetu.ai';
+    const demoPass = 'RaahsetuPass123!';
     try {
       try {
         await login(demoEmail, demoPass);
       } catch {
-        // Fallback to legacy demo account if needed
+        // Fallback to legacy demo accounts if needed
         try {
-          await login('alex.chen@omnitrix.ai', 'OmnitrixPass123!');
+          await login('alex.chen@hiremind.ai', 'HireMindPass123!');
         } catch {
-          // If neither exists, sign up demo user in DB
-          await api.signup({
-            name: 'Alex Chen',
-            email: demoEmail,
-            password: demoPass,
-            role: 'user',
-          });
-          await login(demoEmail, demoPass);
+          try {
+            await login('alex.chen@omnitrix.ai', 'OmnitrixPass123!');
+          } catch {
+            // If neither exists, sign up demo user in DB
+            await api.signup({
+              name: 'Alex Chen',
+              email: demoEmail,
+              password: demoPass,
+              role: 'user',
+            });
+            await login(demoEmail, demoPass);
+          }
         }
       }
     } finally {
@@ -94,6 +99,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   const logout = () => {
+    localStorage.removeItem('raahsetu_token');
     localStorage.removeItem('hiremind_token');
     localStorage.removeItem('omnitrix_token');
     setToken(null);

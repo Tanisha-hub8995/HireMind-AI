@@ -1,0 +1,13 @@
+{
+  "name": "raahsetu-ai",
+  "version": "1.0.0",
+  "description": "RAAHSETU AI - Enterprise Multimodal AI Technical Interview Platform",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix Omnitrix/frontend run dev",
+    "build": "npm --prefix Omnitrix/frontend run build",
+    "preview": "npm --prefix Omnitrix/frontend run preview",
+    "frontend": "npm --prefix Omnitrix/frontend run dev",
+    "backend": "cd Omnitrix/backend && ./.venv/bin/python3 -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload"
+  }
+}

@@ -55,5 +55,8 @@ htmlcov/
 Thumbs.db
 .vscode/
 .idea/
-*.swp
-*.swo
+# =========================
+# Uploads & Temporary files
+# =========================
+uploads/
+**/uploads/

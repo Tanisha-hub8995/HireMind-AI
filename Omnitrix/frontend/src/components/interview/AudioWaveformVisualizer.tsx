@@ -5,11 +5,13 @@ import { Mic, Volume2, Activity } from 'lucide-react';
 interface AudioWaveformVisualizerProps {
   isRecording: boolean;
   transcript?: string;
+  stream?: MediaStream | null;
 }
 
 export const AudioWaveformVisualizer: React.FC<AudioWaveformVisualizerProps> = ({
   isRecording,
-  transcript
+  transcript,
+  stream: providedStream
 }) => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const audioContextRef = useRef<AudioContext | null>(null);
@@ -24,7 +26,7 @@ export const AudioWaveformVisualizer: React.FC<AudioWaveformVisualizerProps> = (
       if (animFrameIdRef.current) {
         cancelAnimationFrame(animFrameIdRef.current);
       }
-      if (streamRef.current) {
+      if (streamRef.current && !providedStream) {
         streamRef.current.getTracks().forEach(t => t.stop());
         streamRef.current = null;
       }
@@ -40,9 +42,9 @@ export const AudioWaveformVisualizer: React.FC<AudioWaveformVisualizerProps> = (
     // Connect to real microphone audio input for live wave visualization
     const initAudio = async () => {
       try {
-        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        const stream = providedStream || await navigator.mediaDevices.getUserMedia({ audio: true });
         if (!isMounted) {
-          stream.getTracks().forEach(t => t.stop());
+          if (!providedStream) stream.getTracks().forEach(t => t.stop());
           return;
         }
         streamRef.current = stream;

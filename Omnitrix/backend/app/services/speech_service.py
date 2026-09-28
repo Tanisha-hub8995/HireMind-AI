@@ -46,11 +46,25 @@ class SpeechService:
         try:
             whisper = self._load_whisper()
             if whisper is not None:
-                audio_stream = io.BytesIO(audio_bytes)
-                segments, _ = whisper.transcribe(audio_stream, beam_size=2, language="en")
-                transcript = " ".join(seg.text for seg in segments).strip()
-                if transcript:
-                    return transcript
+                # Use a tempfile with the appropriate suffix for reliable PyAV container parsing
+                suffix = os.path.splitext(filename)[1] or ".webm"
+                if not suffix.startswith("."):
+                    suffix = f".{suffix}"
+                with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as tf:
+                    tf.write(audio_bytes)
+                    tmp_path = tf.name
+
+                try:
+                    segments, _ = whisper.transcribe(tmp_path, beam_size=2, language="en")
+                    transcript = " ".join(seg.text for seg in segments).strip()
+                    if transcript:
+                        return transcript
+                finally:
+                    if os.path.exists(tmp_path):
+                        try:
+                            os.remove(tmp_path)
+                        except Exception:
+                            pass
         except Exception as exc:
             logger.warning("Whisper transcription failed: %s", exc)
 

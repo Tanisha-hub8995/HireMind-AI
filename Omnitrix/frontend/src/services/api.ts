@@ -14,7 +14,7 @@ import {
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
 function getHeaders(isFormData = false): HeadersInit {
-  const token = localStorage.getItem('hiremind_token') || localStorage.getItem('omnitrix_token');
+  const token = localStorage.getItem('raahsetu_token') || localStorage.getItem('hiremind_token') || localStorage.getItem('omnitrix_token');
   const headers: Record<string, string> = {};
   if (!isFormData) {
     headers['Content-Type'] = 'application/json';
@@ -73,6 +73,7 @@ export const api = {
       body: formData.toString(),
     });
     const data = await handleResponse<AuthResponse>(res);
+    localStorage.setItem('raahsetu_token', data.access_token);
     localStorage.setItem('hiremind_token', data.access_token);
     localStorage.setItem('omnitrix_token', data.access_token);
     return data;
@@ -197,6 +198,16 @@ export const api = {
 
   getQuestionAudioUrl(questionId: number): string {
     return `${API_BASE}/interviews/questions/${questionId}/audio`;
+  },
+
+  async transcribeAudio(audioBlob: Blob): Promise<{ status: string; transcript: string; length_bytes: number }> {
+    const formData = new FormData();
+    formData.append('file', audioBlob, 'recording.webm');
+    const res = await fetch(`${API_BASE}/interviews/transcribe`, {
+      method: 'POST',
+      body: formData,
+    });
+    return handleResponse(res);
   },
 
   // Assessments

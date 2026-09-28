@@ -66,7 +66,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ setActiveTab }) =>
   const [billingCycle, setBillingCycle] = useState<'monthly' | 'yearly'>('monthly');
   const [selectedPlanModal, setSelectedPlanModal] = useState<string | null>(null);
   const [isPro, setIsPro] = useState<boolean>(() => {
-    return localStorage.getItem('hiremind_pro') === 'true';
+    return localStorage.getItem('raahsetu_pro') === 'true' || localStorage.getItem('hiremind_pro') === 'true';
   });
   const [proSuccessAlert, setProSuccessAlert] = useState(false);
 
@@ -161,6 +161,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ setActiveTab }) =>
 
   const handleActivatePro = () => {
     setIsPro(true);
+    localStorage.setItem('raahsetu_pro', 'true');
     localStorage.setItem('hiremind_pro', 'true');
     setSelectedPlanModal(null);
     setProSuccessAlert(true);
@@ -595,7 +596,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ setActiveTab }) =>
               <div className="space-y-3">
                 <button
                   type="button"
-                  onClick={() => handlePlayVoiceDemo("Hello candidate! I am your HireMind AI interviewer. Audio output is loud and clear.")}
+                  onClick={() => handlePlayVoiceDemo("Hello candidate! I am your RAAHSETU AI interviewer. Audio output is loud and clear.")}
                   className={`w-full py-2.5 px-4 rounded-xl text-xs font-bold transition-all flex items-center justify-between border ${
                     playingVoiceDemo
                       ? 'bg-rose-600 text-white border-rose-500 shadow-md shadow-rose-600/30 animate-pulse'
@@ -666,7 +667,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ setActiveTab }) =>
       <section className="space-y-10">
         <div className="text-center max-w-2xl mx-auto space-y-3">
           <span className="text-xs font-mono font-bold uppercase tracking-wider text-cyan-400 bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/20">
-            Why HireMind AI
+            Why RAAHSETU
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
             Practice Like It’s the Real Thing
@@ -997,7 +998,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ setActiveTab }) =>
                   </div>
 
                   <div className="flex justify-between items-center text-[11px] pt-1 text-slate-400">
-                    <span>HireMind Pass Probability:</span>
+                    <span>RAAHSETU Pass Probability:</span>
                     <span className="text-emerald-400 font-bold">{currentComp.passRate}% with 4+ mock sessions</span>
                   </div>
                 </div>
@@ -1112,7 +1113,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ setActiveTab }) =>
             Simple 3-Step Process
           </span>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            How HireMind AI Works
+            How RAAHSETU Works
           </h2>
           <p className="text-base text-slate-400 leading-relaxed">
             From your first mock session to a verified offer, in plain English.
@@ -1417,7 +1418,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ setActiveTab }) =>
           </h2>
 
           <p className="text-base text-slate-300 leading-relaxed font-normal">
-            Join over 10,000 engineers practicing with HireMind AI. No credit card required.
+            Join over 10,000 engineers practicing with RAAHSETU. No credit card required.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 pt-3">
@@ -1454,7 +1455,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ setActiveTab }) =>
               <CheckCheck className="w-5 h-5" />
             </div>
             <div>
-              <h4 className="text-sm font-bold text-white">HireMind Pro Activated!</h4>
+              <h4 className="text-sm font-bold text-white">RAAHSETU Pro Activated!</h4>
               <p className="text-xs text-emerald-200">Unlimited mock interviews, voice mode & telemetry unlocked.</p>
             </div>
           </motion.div>
@@ -1485,7 +1486,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ setActiveTab }) =>
                       <Sparkles className="w-6 h-6" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-white">HireMind AI Pro</h3>
+                      <h3 className="text-xl font-bold text-white">RAAHSETU AI Pro</h3>
                       <p className="text-xs text-slate-400">
                         {billingCycle === 'yearly' ? '$15/month ($180/yr)' : '$19/month billed monthly'}
                       </p>
@@ -1523,7 +1524,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ setActiveTab }) =>
                       <Briefcase className="w-6 h-6" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-white">HireMind for Teams</h3>
+                      <h3 className="text-xl font-bold text-white">RAAHSETU for Teams</h3>
                       <p className="text-xs text-slate-400">Enterprise & Bootcamp Cohorts</p>
                     </div>
                   </div>
@@ -1534,7 +1535,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({ setActiveTab }) =>
 
                   <div className="p-4 rounded-xl bg-slate-900 border border-white/[0.06] text-xs space-y-2 text-slate-300">
                     <div className="font-semibold text-white">Direct Enterprise Contact:</div>
-                    <div className="font-mono text-cyan-400">enterprise@hiremind.ai</div>
+                    <div className="font-mono text-cyan-400">enterprise@raahsetu.ai</div>
                     <div className="text-slate-400">Or reach our team at +1 (800) 447-3646</div>
                   </div>
 

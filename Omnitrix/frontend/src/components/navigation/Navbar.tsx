@@ -64,8 +64,8 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, onOpenA
             <div className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center shadow-md shadow-indigo-600/20 group-hover:bg-indigo-500 transition-colors">
               <BrainCircuit className="w-4 h-4 text-white" />
             </div>
-            <span className="font-bold text-base tracking-tight text-slate-900 dark:text-white">
-              HireMind<span className="text-cyan-500 dark:text-cyan-400 font-semibold ml-0.5">AI</span>
+            <span className="font-extrabold text-base tracking-tight text-slate-900 dark:text-white">
+              RAAHSETU<span className="text-cyan-500 dark:text-cyan-400 font-semibold ml-0.5">AI</span>
             </span>
           </div>
 

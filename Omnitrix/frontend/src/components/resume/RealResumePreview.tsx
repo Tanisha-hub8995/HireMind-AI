@@ -169,7 +169,7 @@ export const RealResumePreview: React.FC<RealResumePreviewProps> = ({
     ? (candidateData?.name || 'Alex Chen')
     : 'Alex Chen';
 
-  const candidateEmailDisplay = `${candidateNameDisplay.toLowerCase().replace(/[^a-z0-9]/g, '.')}@hiremind.ai`;
+  const candidateEmailDisplay = `${candidateNameDisplay.toLowerCase().replace(/[^a-z0-9]/g, '.')}@raahsetu.ai`;
   const candidateGithubDisplay = `github.com/${candidateNameDisplay.toLowerCase().replace(/[^a-z0-9]/g, '')}`;
   const candidateLinkedinDisplay = `linkedin.com/in/${candidateNameDisplay.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
 

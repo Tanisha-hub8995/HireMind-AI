@@ -21,7 +21,9 @@ import {
   Building, 
   Flame, 
   HelpCircle,
-  FileCheck
+  FileCheck,
+  Wand2,
+  Loader2
 } from 'lucide-react';
 import { AIInterviewerAvatar3D } from '../three/AIInterviewerAvatar3D';
 import { ProctoredCameraFeed } from './ProctoredCameraFeed';
@@ -67,6 +69,9 @@ export const InterviewRoom: React.FC = () => {
   const [lastSpokenPhrase, setLastSpokenPhrase] = useState<string>('');
   const [micTestResult, setMicTestResult] = useState<string | null>(null);
   const [isTestingMic, setIsTestingMic] = useState(false);
+  const [activeMicStream, setActiveMicStream] = useState<MediaStream | null>(null);
+  const [isTranscribingWithWhisper, setIsTranscribingWithWhisper] = useState(false);
+  const [whisperStatusText, setWhisperStatusText] = useState<string | null>(null);
 
   // Speech & Audio refs
   const recognitionRef = useRef<any>(null);
@@ -75,6 +80,9 @@ export const InterviewRoom: React.FC = () => {
   const answerTextRef = useRef<string>('');
   const activeAudioRef = useRef<HTMLAudioElement | null>(null);
   const activeUtteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
+  const mediaRecorderRef = useRef<MediaRecorder | null>(null);
+  const audioChunksRef = useRef<Blob[]>([]);
+  const streamRef = useRef<MediaStream | null>(null);
 
   // Synchronize answerTextRef with answerText state
   useEffect(() => {
@@ -141,6 +149,11 @@ export const InterviewRoom: React.FC = () => {
           setIsVoiceDetected(false);
           return;
         }
+        if (event?.error === 'network') {
+          // Web Speech remote service unavailable; Whisper will transcribe when stopped
+          console.info('Web Speech network status; Whisper AI will transcribe recorded audio.');
+          return;
+        }
         if (event?.error === 'not-allowed' || event?.error === 'service-not-allowed') {
           isRecordingRef.current = false;
           setIsRecording(false);
@@ -167,12 +180,15 @@ export const InterviewRoom: React.FC = () => {
                   console.warn('Speech recognition restart delayed:', err);
                 }
               }
-            }, 100);
+            }, 150);
           }
         } else {
-          setIsRecording(false);
-          setIsAudioActive(false);
-          setAvatarState('idle');
+          // Only turn off if media recorder is also done
+          if (!mediaRecorderRef.current || mediaRecorderRef.current.state === 'inactive') {
+            setIsRecording(false);
+            setIsAudioActive(false);
+            setAvatarState('idle');
+          }
         }
       };
 
@@ -185,6 +201,15 @@ export const InterviewRoom: React.FC = () => {
         try {
           recognitionRef.current.stop();
         } catch (e) {}
+      }
+      if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
+        try {
+          mediaRecorderRef.current.stop();
+        } catch (e) {}
+      }
+      if (streamRef.current) {
+        streamRef.current.getTracks().forEach((t) => t.stop());
+        streamRef.current = null;
       }
     };
   }, []);
@@ -311,7 +336,7 @@ export const InterviewRoom: React.FC = () => {
   };
 
   const testAudio = () => {
-    playTTS("Hello candidate! I am your HireMind AI interviewer. Audio output is loud and clear.");
+    playTTS("Hello candidate! I am your RAAHSETU AI interviewer. Audio output is loud and clear.");
   };
 
   const handleStartInterview = async () => {
@@ -343,22 +368,88 @@ export const InterviewRoom: React.FC = () => {
     }
   };
 
+  const stopAllAudioRecording = () => {
+    isRecordingRef.current = false;
+    audioFeedback.playMicOffChime();
+    if (recognitionRef.current) {
+      try {
+        recognitionRef.current.stop();
+      } catch (e) {}
+    }
+    if (mediaRecorderRef.current && mediaRecorderRef.current.state !== 'inactive') {
+      try {
+        mediaRecorderRef.current.stop();
+      } catch (e) {}
+    }
+    if (streamRef.current) {
+      streamRef.current.getTracks().forEach((t) => t.stop());
+      streamRef.current = null;
+      setActiveMicStream(null);
+    }
+    setIsRecording(false);
+    setIsAudioActive(false);
+    setIsVoiceDetected(false);
+    setAvatarState('idle');
+  };
+
+  const transcribeWithWhisper = async (audioBlob?: Blob) => {
+    let blob = audioBlob;
+    if (!blob) {
+      if (audioChunksRef.current.length === 0) {
+        setWhisperStatusText('No audio recorded yet. Please click the mic button and speak.');
+        setTimeout(() => setWhisperStatusText(null), 4000);
+        return;
+      }
+      blob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
+    }
+
+    if (blob.size < 500) {
+      console.info('Audio blob too short to transcribe');
+      return;
+    }
+
+    setIsTranscribingWithWhisper(true);
+    setWhisperStatusText('⚡ AI Neural Whisper is transcribing your voice...');
+    try {
+      const res = await api.transcribeAudio(blob);
+      if (res && res.transcript && res.transcript.trim()) {
+        const whisperText = res.transcript.trim();
+        setAnswerText((prev) => {
+          const cleanPrev = prev.trim();
+          if (!cleanPrev) return whisperText;
+          if (cleanPrev.toLowerCase().includes(whisperText.toLowerCase())) return cleanPrev;
+          if (whisperText.toLowerCase().includes(cleanPrev.toLowerCase())) return whisperText;
+          return `${cleanPrev} ${whisperText}`;
+        });
+        setWhisperStatusText(`✓ Whisper AI transcribed ${whisperText.split(/\s+/).filter(Boolean).length} words!`);
+      } else {
+        setWhisperStatusText('Whisper: No distinct speech captured. Please speak closer to microphone.');
+      }
+    } catch (err: any) {
+      console.warn('Whisper transcription note:', err);
+      setWhisperStatusText('AI Transcription server busy. Browser speech recognition remains active.');
+    } finally {
+      setIsTranscribingWithWhisper(false);
+      setTimeout(() => setWhisperStatusText(null), 6000);
+    }
+  };
+
   const handleTestMicrophoneRecognition = async () => {
     setIsTestingMic(true);
-    setMicTestResult('Testing microphone hardware access and speech engine...');
+    setMicTestResult('Testing microphone hardware access and neural speech engine...');
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
       // Release test audio tracks
-      stream.getTracks().forEach(t => t.stop());
+      stream.getTracks().forEach((t) => t.stop());
 
       const SpeechRecognition =
         (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
 
       if (!SpeechRecognition) {
-        setMicTestResult('⚠️ Microphone access is granted, but browser does not support Web Speech API. For automatic speech-to-text, please use Google Chrome or Microsoft Edge.');
+        setMicTestResult('✓ Microphone hardware active! Server-side AI Whisper will transcribe your audio directly.');
       } else {
         audioFeedback.playMicOnChime();
-        setMicTestResult('✓ Microphone & Speech-to-Text fully verified! Your voice will convert to text in real-time as you speak.');
+        setMicTestResult('✓ Microphone & Neural Speech-to-Text fully verified! Powered by Web Speech + RAAHSETU Whisper AI.');
       }
     } catch (err: any) {
       setMicTestResult('❌ Microphone permission was denied or unavailable. Please click the lock/settings icon in your browser URL bar and allow microphone permissions.');
@@ -370,59 +461,95 @@ export const InterviewRoom: React.FC = () => {
     }
   };
 
-  const toggleRecording = () => {
-    if (!recognitionRef.current) {
-      alert('Speech recognition is not supported in this browser. Please use Chrome, Edge, or a Chromium-based browser, or type your answer.');
-      return;
-    }
-
+  const toggleRecording = async () => {
     if (isRecording) {
-      isRecordingRef.current = false;
-      audioFeedback.playMicOffChime();
-      try {
-        recognitionRef.current.stop();
-      } catch (e) {}
-      setIsRecording(false);
-      setIsVoiceDetected(false);
-      setIsAudioActive(false);
-      setAvatarState('idle');
+      // User requested stop
+      stopAllAudioRecording();
+
+      // Trigger automatic Whisper transcription on the captured recording
+      setTimeout(() => {
+        if (audioChunksRef.current.length > 0) {
+          const blob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
+          transcribeWithWhisper(blob);
+        }
+      }, 150);
     } else {
+      // User requested start
       isRecordingRef.current = true;
       baseTextRef.current = answerTextRef.current;
       audioFeedback.playMicOnChime();
       window.speechSynthesis?.cancel();
+      audioChunksRef.current = [];
+
       try {
-        recognitionRef.current.start();
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        streamRef.current = stream;
+        setActiveMicStream(stream);
+
+        let mimeType = 'audio/webm;codecs=opus';
+        if (!MediaRecorder.isTypeSupported(mimeType)) {
+          mimeType = MediaRecorder.isTypeSupported('audio/webm') ? 'audio/webm' : '';
+        }
+
+        const recorder = mimeType ? new MediaRecorder(stream, { mimeType }) : new MediaRecorder(stream);
+        recorder.ondataavailable = (event) => {
+          if (event.data && event.data.size > 0) {
+            audioChunksRef.current.push(event.data);
+          }
+        };
+        recorder.start(400);
+        mediaRecorderRef.current = recorder;
+
         setIsRecording(true);
         setIsAudioActive(true);
         setAvatarState('listening');
-      } catch (err) {
-        console.warn('Speech recognition start note:', err);
+      } catch (err: any) {
+        console.warn('Microphone stream error:', err);
+        alert('Could not access microphone. Please make sure microphone permission is granted in your browser settings.');
+        isRecordingRef.current = false;
+        return;
+      }
+
+      // Concurrently run Web Speech recognition if supported
+      if (recognitionRef.current) {
         try {
-          recognitionRef.current.stop();
-          setTimeout(() => {
-            if (isRecordingRef.current) {
-              try {
-                recognitionRef.current.start();
-                setIsRecording(true);
-                setIsAudioActive(true);
-                setAvatarState('listening');
-              } catch (e) {}
-            }
-          }, 150);
-        } catch (e) {}
+          recognitionRef.current.start();
+        } catch (err) {
+          console.warn('Browser SpeechRecognition note:', err);
+        }
       }
     }
   };
 
   const handleSubmitAnswer = async () => {
-    if (!session || !currentQuestion || !answerText.trim()) return;
-    if (isRecording) {
-      isRecordingRef.current = false;
-      try {
-        recognitionRef.current?.stop();
-      } catch (e) {}
-      setIsRecording(false);
+    if (!session || !currentQuestion) return;
+
+    let textToSubmit = answerText.trim();
+
+    // If recording is still active or answerText is empty but audio was recorded, transcribe first
+    if (isRecording || (!textToSubmit && audioChunksRef.current.length > 0)) {
+      stopAllAudioRecording();
+      if (!textToSubmit && audioChunksRef.current.length > 0) {
+        setIsTranscribingWithWhisper(true);
+        setWhisperStatusText('⚡ Transcribing voice with AI Whisper before rubric evaluation...');
+        try {
+          const finalBlob = new Blob(audioChunksRef.current, { type: 'audio/webm' });
+          const res = await api.transcribeAudio(finalBlob);
+          if (res?.transcript?.trim()) {
+            textToSubmit = res.transcript.trim();
+            setAnswerText(textToSubmit);
+          }
+        } catch (e) {
+          console.warn('Final audio transcription note:', e);
+        } finally {
+          setIsTranscribingWithWhisper(false);
+        }
+      }
+    }
+
+    if (!textToSubmit) {
+      alert('Please speak into the microphone or type your answer before submitting.');
+      return;
     }
 
     setLoading(true);
@@ -432,7 +559,7 @@ export const InterviewRoom: React.FC = () => {
       const evalResult = await api.submitAnswer(session.interview_id, {
         question_id: currentQuestion.id,
         question_text: currentQuestion.question_text,
-        answer_text: answerText,
+        answer_text: textToSubmit,
         time_taken_seconds: 45,
         generate_followup: true,
       });
@@ -452,11 +579,7 @@ export const InterviewRoom: React.FC = () => {
 
   const handleNextQuestion = () => {
     if (isRecording) {
-      isRecordingRef.current = false;
-      try {
-        recognitionRef.current?.stop();
-      } catch (e) {}
-      setIsRecording(false);
+      stopAllAudioRecording();
     }
     if (!session) return;
     setEvaluation(null);
@@ -476,6 +599,9 @@ export const InterviewRoom: React.FC = () => {
   };
 
   const handleTakeFollowup = () => {
+    if (isRecording) {
+      stopAllAudioRecording();
+    }
     if (!followupQuestion) return;
     setCurrentQuestion(followupQuestion);
     setFollowupQuestion(null);
@@ -570,7 +696,7 @@ export const InterviewRoom: React.FC = () => {
                     <AIInterviewerAvatar3D state="idle" size="md" />
                   </div>
                   <div className="mt-2">
-                    <h3 className="font-bold text-white text-base">HireMind AI Neural Examiner</h3>
+                    <h3 className="font-bold text-white text-base">RAAHSETU AI Neural Examiner</h3>
                     <p className="text-xs text-slate-400 mt-1 max-w-xs">
                       Evaluates 6 core dimensions: correctness, depth, relevance, communication, structure, and speed.
                     </p>
@@ -1052,10 +1178,35 @@ export const InterviewRoom: React.FC = () => {
                           ? 'bg-red-500 hover:bg-red-600 text-white animate-pulse shadow-lg shadow-red-500/40 ring-2 ring-red-400/50'
                           : 'bg-slate-800 text-slate-300 hover:text-white border border-white/10 hover:border-brand-500/30'
                       }`}
-                      title={isRecording ? 'Click to pause/stop microphone' : 'Click to start continuous microphone recording'}
+                      title={isRecording ? 'Click to stop continuous microphone and transcribe' : 'Click to start continuous microphone recording'}
                     >
                       {isRecording ? <MicOff className="w-3.5 h-3.5" /> : <Mic className="w-3.5 h-3.5 text-cyber-cyan" />}
-                      <span>{isRecording ? 'Listening (Continuous)' : 'Voice Input (Continuous)'}</span>
+                      <span>{isRecording ? 'Stop & Convert Voice' : 'Voice Input (Continuous)'}</span>
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={() => {
+                        if (isRecording) {
+                          toggleRecording();
+                        } else {
+                          transcribeWithWhisper();
+                        }
+                      }}
+                      disabled={isTranscribingWithWhisper}
+                      className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
+                        isTranscribingWithWhisper
+                          ? 'bg-purple-600 text-white animate-pulse'
+                          : 'bg-purple-600/25 hover:bg-purple-600/40 text-purple-300 hover:text-white border border-purple-500/40'
+                      }`}
+                      title="Convert speech directly using server-side neural Whisper AI"
+                    >
+                      {isTranscribingWithWhisper ? (
+                        <Loader2 className="w-3.5 h-3.5 animate-spin text-purple-200" />
+                      ) : (
+                        <Wand2 className="w-3.5 h-3.5 text-purple-300" />
+                      )}
+                      <span>{isTranscribingWithWhisper ? 'Whisper Converting...' : 'AI Whisper STT'}</span>
                     </button>
                   </div>
                 </div>
@@ -1074,6 +1225,32 @@ export const InterviewRoom: React.FC = () => {
                     <span>{micTestResult}</span>
                     <button
                       onClick={() => setMicTestResult(null)}
+                      className="text-[10px] font-mono opacity-70 hover:opacity-100 ml-2"
+                    >
+                      Dismiss
+                    </button>
+                  </motion.div>
+                )}
+
+                {/* Whisper Neural Transcription Toast / Status Banner */}
+                {whisperStatusText && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -6 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    className={`p-3 rounded-2xl text-xs flex items-center justify-between border ${
+                      whisperStatusText.startsWith('✓')
+                        ? 'bg-emerald-950/50 border-emerald-500/40 text-emerald-300'
+                        : whisperStatusText.startsWith('⚡')
+                        ? 'bg-purple-950/50 border-purple-500/40 text-purple-200'
+                        : 'bg-amber-950/40 border-amber-500/30 text-amber-300'
+                    }`}
+                  >
+                    <div className="flex items-center space-x-2">
+                      {isTranscribingWithWhisper && <Loader2 className="w-3.5 h-3.5 animate-spin text-purple-300" />}
+                      <span>{whisperStatusText}</span>
+                    </div>
+                    <button
+                      onClick={() => setWhisperStatusText(null)}
                       className="text-[10px] font-mono opacity-70 hover:opacity-100 ml-2"
                     >
                       Dismiss
@@ -1105,7 +1282,7 @@ export const InterviewRoom: React.FC = () => {
                 )}
 
                 {/* Dynamic Wavy UI Audio Visualizer when Microphone is active */}
-                <AudioWaveformVisualizer isRecording={isRecording} transcript={answerText} />
+                <AudioWaveformVisualizer isRecording={isRecording} transcript={answerText} stream={activeMicStream} />
 
                 <textarea
                   rows={isRecording ? 4 : 6}

@@ -83,7 +83,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose }) => {
           {/* Header */}
           <div className="mb-4">
             <h2 className="text-2xl font-black tracking-tight text-white flex items-center space-x-2">
-              <span>{isSignUp ? 'Create HireMind AI Account' : 'Welcome to HireMind AI'}</span>
+              <span>{isSignUp ? 'Create RAAHSETU Account' : 'Welcome to RAAHSETU'}</span>
             </h2>
             <p className="text-xs text-slate-400 mt-1">
               {isSignUp

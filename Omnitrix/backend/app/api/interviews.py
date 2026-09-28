@@ -636,3 +636,25 @@ def get_interview_detail(
         ],
     )
 
+
+@router.post("/transcribe")
+async def transcribe_candidate_speech(
+    file: UploadFile = File(...),
+):
+    """Standalone high-precision speech-to-text endpoint powered by Whisper.
+    
+    Accepts recorded candidate audio (WebM, WAV, MP3, OGG) and returns the transcribed text.
+    """
+    audio_bytes = await file.read()
+    if not audio_bytes:
+        raise HTTPException(status_code=400, detail="No audio data received")
+
+    filename = file.filename or "recording.webm"
+    transcript = interview_ai.transcribe_audio(audio_bytes, filename=filename)
+
+    return {
+        "status": "success",
+        "transcript": transcript.strip() if transcript else "",
+        "length_bytes": len(audio_bytes),
+    }
+

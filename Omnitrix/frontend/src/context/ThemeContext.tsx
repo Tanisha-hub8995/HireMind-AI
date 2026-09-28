@@ -12,7 +12,7 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [theme, setThemeState] = useState<Theme>(() => {
-    const saved = localStorage.getItem('hiremind_theme');
+    const saved = localStorage.getItem('raahsetu_theme') || localStorage.getItem('hiremind_theme');
     if (saved === 'light' || saved === 'dark') return saved;
     return 'dark'; // Default to dark obsidian
   });
@@ -26,7 +26,7 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
       root.classList.remove('dark');
       root.classList.add('light');
     }
-    localStorage.setItem('hiremind_theme', theme);
+    localStorage.setItem('raahsetu_theme', theme);
   }, [theme]);
 
   const toggleTheme = () => {
