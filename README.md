@@ -1,4 +1,4 @@
-# 🧠 RAAHSETU AI (HireMind-AI)
+# 🧠 RAAHSETU AI 
 
 **Enterprise Multimodal AI-Powered Interview Intelligence & Career Preparation Platform**
 
